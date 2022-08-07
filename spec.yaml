@@ -1,6 +1,6 @@
 nodes:
  - name: tor1-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net1 }
    - { name: net2, type: direct, args: leaf1-2#net1 }
@@ -19,7 +19,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net1 }
    - { name: net16, type: direct, args: leaf1-16#net1 }
  - name: tor1-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net2 }
    - { name: net2, type: direct, args: leaf1-2#net2 }
@@ -38,7 +38,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net2 }
    - { name: net16, type: direct, args: leaf1-16#net2 }
  - name: tor1-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net3 }
    - { name: net2, type: direct, args: leaf1-2#net3 }
@@ -57,7 +57,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net3 }
    - { name: net16, type: direct, args: leaf1-16#net3 }
  - name: tor1-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net4 }
    - { name: net2, type: direct, args: leaf1-2#net4 }
@@ -76,7 +76,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net4 }
    - { name: net16, type: direct, args: leaf1-16#net4 }
  - name: tor1-5
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net5 }
    - { name: net2, type: direct, args: leaf1-2#net5 }
@@ -95,7 +95,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net5 }
    - { name: net16, type: direct, args: leaf1-16#net5 }
  - name: tor1-6
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net6 }
    - { name: net2, type: direct, args: leaf1-2#net6 }
@@ -114,7 +114,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net6 }
    - { name: net16, type: direct, args: leaf1-16#net6 }
  - name: tor1-7
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net7 }
    - { name: net2, type: direct, args: leaf1-2#net7 }
@@ -133,7 +133,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net7 }
    - { name: net16, type: direct, args: leaf1-16#net7 }
  - name: tor1-8
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net8 }
    - { name: net2, type: direct, args: leaf1-2#net8 }
@@ -152,7 +152,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net8 }
    - { name: net16, type: direct, args: leaf1-16#net8 }
  - name: tor1-9
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net9 }
    - { name: net2, type: direct, args: leaf1-2#net9 }
@@ -171,7 +171,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net9 }
    - { name: net16, type: direct, args: leaf1-16#net9 }
  - name: tor1-10
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net10 }
    - { name: net2, type: direct, args: leaf1-2#net10 }
@@ -190,7 +190,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net10 }
    - { name: net16, type: direct, args: leaf1-16#net10 }
  - name: tor1-11
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net11 }
    - { name: net2, type: direct, args: leaf1-2#net11 }
@@ -209,7 +209,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net11 }
    - { name: net16, type: direct, args: leaf1-16#net11 }
  - name: tor1-12
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net12 }
    - { name: net2, type: direct, args: leaf1-2#net12 }
@@ -228,7 +228,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net12 }
    - { name: net16, type: direct, args: leaf1-16#net12 }
  - name: tor1-13
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net13 }
    - { name: net2, type: direct, args: leaf1-2#net13 }
@@ -247,7 +247,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net13 }
    - { name: net16, type: direct, args: leaf1-16#net13 }
  - name: tor1-14
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net14 }
    - { name: net2, type: direct, args: leaf1-2#net14 }
@@ -266,7 +266,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net14 }
    - { name: net16, type: direct, args: leaf1-16#net14 }
  - name: tor1-15
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net15 }
    - { name: net2, type: direct, args: leaf1-2#net15 }
@@ -285,7 +285,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net15 }
    - { name: net16, type: direct, args: leaf1-16#net15 }
  - name: tor1-16
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net16 }
    - { name: net2, type: direct, args: leaf1-2#net16 }
@@ -304,7 +304,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net16 }
    - { name: net16, type: direct, args: leaf1-16#net16 }
  - name: tor1-17
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net17 }
    - { name: net2, type: direct, args: leaf1-2#net17 }
@@ -323,7 +323,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net17 }
    - { name: net16, type: direct, args: leaf1-16#net17 }
  - name: tor1-18
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net18 }
    - { name: net2, type: direct, args: leaf1-2#net18 }
@@ -342,7 +342,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net18 }
    - { name: net16, type: direct, args: leaf1-16#net18 }
  - name: tor1-19
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net19 }
    - { name: net2, type: direct, args: leaf1-2#net19 }
@@ -361,7 +361,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net19 }
    - { name: net16, type: direct, args: leaf1-16#net19 }
  - name: tor1-20
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net20 }
    - { name: net2, type: direct, args: leaf1-2#net20 }
@@ -380,7 +380,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net20 }
    - { name: net16, type: direct, args: leaf1-16#net20 }
  - name: tor1-21
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net21 }
    - { name: net2, type: direct, args: leaf1-2#net21 }
@@ -399,7 +399,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net21 }
    - { name: net16, type: direct, args: leaf1-16#net21 }
  - name: tor1-22
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net22 }
    - { name: net2, type: direct, args: leaf1-2#net22 }
@@ -418,7 +418,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net22 }
    - { name: net16, type: direct, args: leaf1-16#net22 }
  - name: tor1-23
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net23 }
    - { name: net2, type: direct, args: leaf1-2#net23 }
@@ -437,7 +437,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net23 }
    - { name: net16, type: direct, args: leaf1-16#net23 }
  - name: tor1-24
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net24 }
    - { name: net2, type: direct, args: leaf1-2#net24 }
@@ -456,7 +456,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net24 }
    - { name: net16, type: direct, args: leaf1-16#net24 }
  - name: tor1-25
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net25 }
    - { name: net2, type: direct, args: leaf1-2#net25 }
@@ -475,7 +475,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net25 }
    - { name: net16, type: direct, args: leaf1-16#net25 }
  - name: tor1-26
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net26 }
    - { name: net2, type: direct, args: leaf1-2#net26 }
@@ -494,7 +494,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net26 }
    - { name: net16, type: direct, args: leaf1-16#net26 }
  - name: tor1-27
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net27 }
    - { name: net2, type: direct, args: leaf1-2#net27 }
@@ -513,7 +513,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net27 }
    - { name: net16, type: direct, args: leaf1-16#net27 }
  - name: tor1-28
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net28 }
    - { name: net2, type: direct, args: leaf1-2#net28 }
@@ -532,7 +532,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net28 }
    - { name: net16, type: direct, args: leaf1-16#net28 }
  - name: tor1-29
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net29 }
    - { name: net2, type: direct, args: leaf1-2#net29 }
@@ -551,7 +551,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net29 }
    - { name: net16, type: direct, args: leaf1-16#net29 }
  - name: tor1-30
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net30 }
    - { name: net2, type: direct, args: leaf1-2#net30 }
@@ -570,7 +570,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net30 }
    - { name: net16, type: direct, args: leaf1-16#net30 }
  - name: tor1-31
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net31 }
    - { name: net2, type: direct, args: leaf1-2#net31 }
@@ -589,7 +589,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net31 }
    - { name: net16, type: direct, args: leaf1-16#net31 }
  - name: tor1-32
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net32 }
    - { name: net2, type: direct, args: leaf1-2#net32 }
@@ -608,7 +608,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net32 }
    - { name: net16, type: direct, args: leaf1-16#net32 }
  - name: tor1-33
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net33 }
    - { name: net2, type: direct, args: leaf1-2#net33 }
@@ -627,7 +627,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net33 }
    - { name: net16, type: direct, args: leaf1-16#net33 }
  - name: tor1-34
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net34 }
    - { name: net2, type: direct, args: leaf1-2#net34 }
@@ -646,7 +646,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net34 }
    - { name: net16, type: direct, args: leaf1-16#net34 }
  - name: tor1-35
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net35 }
    - { name: net2, type: direct, args: leaf1-2#net35 }
@@ -665,7 +665,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net35 }
    - { name: net16, type: direct, args: leaf1-16#net35 }
  - name: tor1-36
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net36 }
    - { name: net2, type: direct, args: leaf1-2#net36 }
@@ -684,7 +684,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net36 }
    - { name: net16, type: direct, args: leaf1-16#net36 }
  - name: tor1-37
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net37 }
    - { name: net2, type: direct, args: leaf1-2#net37 }
@@ -703,7 +703,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net37 }
    - { name: net16, type: direct, args: leaf1-16#net37 }
  - name: tor1-38
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net38 }
    - { name: net2, type: direct, args: leaf1-2#net38 }
@@ -722,7 +722,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net38 }
    - { name: net16, type: direct, args: leaf1-16#net38 }
  - name: tor1-39
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net39 }
    - { name: net2, type: direct, args: leaf1-2#net39 }
@@ -741,7 +741,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net39 }
    - { name: net16, type: direct, args: leaf1-16#net39 }
  - name: tor1-40
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net40 }
    - { name: net2, type: direct, args: leaf1-2#net40 }
@@ -760,7 +760,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net40 }
    - { name: net16, type: direct, args: leaf1-16#net40 }
  - name: tor1-41
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net41 }
    - { name: net2, type: direct, args: leaf1-2#net41 }
@@ -779,7 +779,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net41 }
    - { name: net16, type: direct, args: leaf1-16#net41 }
  - name: tor1-42
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net42 }
    - { name: net2, type: direct, args: leaf1-2#net42 }
@@ -798,7 +798,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net42 }
    - { name: net16, type: direct, args: leaf1-16#net42 }
  - name: tor1-43
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net43 }
    - { name: net2, type: direct, args: leaf1-2#net43 }
@@ -817,7 +817,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net43 }
    - { name: net16, type: direct, args: leaf1-16#net43 }
  - name: tor1-44
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net44 }
    - { name: net2, type: direct, args: leaf1-2#net44 }
@@ -836,7 +836,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net44 }
    - { name: net16, type: direct, args: leaf1-16#net44 }
  - name: tor1-45
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net45 }
    - { name: net2, type: direct, args: leaf1-2#net45 }
@@ -855,7 +855,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net45 }
    - { name: net16, type: direct, args: leaf1-16#net45 }
  - name: tor1-46
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net46 }
    - { name: net2, type: direct, args: leaf1-2#net46 }
@@ -874,7 +874,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net46 }
    - { name: net16, type: direct, args: leaf1-16#net46 }
  - name: tor1-47
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net47 }
    - { name: net2, type: direct, args: leaf1-2#net47 }
@@ -893,7 +893,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net47 }
    - { name: net16, type: direct, args: leaf1-16#net47 }
  - name: tor1-48
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net48 }
    - { name: net2, type: direct, args: leaf1-2#net48 }
@@ -912,7 +912,7 @@ nodes:
    - { name: net15, type: direct, args: leaf1-15#net48 }
    - { name: net16, type: direct, args: leaf1-16#net48 }
  - name: tor2-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net1 }
    - { name: net2, type: direct, args: leaf2-2#net1 }
@@ -931,7 +931,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net1 }
    - { name: net16, type: direct, args: leaf2-16#net1 }
  - name: tor2-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net2 }
    - { name: net2, type: direct, args: leaf2-2#net2 }
@@ -950,7 +950,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net2 }
    - { name: net16, type: direct, args: leaf2-16#net2 }
  - name: tor2-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net3 }
    - { name: net2, type: direct, args: leaf2-2#net3 }
@@ -969,7 +969,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net3 }
    - { name: net16, type: direct, args: leaf2-16#net3 }
  - name: tor2-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net4 }
    - { name: net2, type: direct, args: leaf2-2#net4 }
@@ -988,7 +988,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net4 }
    - { name: net16, type: direct, args: leaf2-16#net4 }
  - name: tor2-5
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net5 }
    - { name: net2, type: direct, args: leaf2-2#net5 }
@@ -1007,7 +1007,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net5 }
    - { name: net16, type: direct, args: leaf2-16#net5 }
  - name: tor2-6
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net6 }
    - { name: net2, type: direct, args: leaf2-2#net6 }
@@ -1026,7 +1026,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net6 }
    - { name: net16, type: direct, args: leaf2-16#net6 }
  - name: tor2-7
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net7 }
    - { name: net2, type: direct, args: leaf2-2#net7 }
@@ -1045,7 +1045,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net7 }
    - { name: net16, type: direct, args: leaf2-16#net7 }
  - name: tor2-8
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net8 }
    - { name: net2, type: direct, args: leaf2-2#net8 }
@@ -1064,7 +1064,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net8 }
    - { name: net16, type: direct, args: leaf2-16#net8 }
  - name: tor2-9
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net9 }
    - { name: net2, type: direct, args: leaf2-2#net9 }
@@ -1083,7 +1083,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net9 }
    - { name: net16, type: direct, args: leaf2-16#net9 }
  - name: tor2-10
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net10 }
    - { name: net2, type: direct, args: leaf2-2#net10 }
@@ -1102,7 +1102,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net10 }
    - { name: net16, type: direct, args: leaf2-16#net10 }
  - name: tor2-11
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net11 }
    - { name: net2, type: direct, args: leaf2-2#net11 }
@@ -1121,7 +1121,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net11 }
    - { name: net16, type: direct, args: leaf2-16#net11 }
  - name: tor2-12
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net12 }
    - { name: net2, type: direct, args: leaf2-2#net12 }
@@ -1140,7 +1140,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net12 }
    - { name: net16, type: direct, args: leaf2-16#net12 }
  - name: tor2-13
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net13 }
    - { name: net2, type: direct, args: leaf2-2#net13 }
@@ -1159,7 +1159,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net13 }
    - { name: net16, type: direct, args: leaf2-16#net13 }
  - name: tor2-14
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net14 }
    - { name: net2, type: direct, args: leaf2-2#net14 }
@@ -1178,7 +1178,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net14 }
    - { name: net16, type: direct, args: leaf2-16#net14 }
  - name: tor2-15
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net15 }
    - { name: net2, type: direct, args: leaf2-2#net15 }
@@ -1197,7 +1197,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net15 }
    - { name: net16, type: direct, args: leaf2-16#net15 }
  - name: tor2-16
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net16 }
    - { name: net2, type: direct, args: leaf2-2#net16 }
@@ -1216,7 +1216,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net16 }
    - { name: net16, type: direct, args: leaf2-16#net16 }
  - name: tor2-17
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net17 }
    - { name: net2, type: direct, args: leaf2-2#net17 }
@@ -1235,7 +1235,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net17 }
    - { name: net16, type: direct, args: leaf2-16#net17 }
  - name: tor2-18
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net18 }
    - { name: net2, type: direct, args: leaf2-2#net18 }
@@ -1254,7 +1254,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net18 }
    - { name: net16, type: direct, args: leaf2-16#net18 }
  - name: tor2-19
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net19 }
    - { name: net2, type: direct, args: leaf2-2#net19 }
@@ -1273,7 +1273,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net19 }
    - { name: net16, type: direct, args: leaf2-16#net19 }
  - name: tor2-20
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net20 }
    - { name: net2, type: direct, args: leaf2-2#net20 }
@@ -1292,7 +1292,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net20 }
    - { name: net16, type: direct, args: leaf2-16#net20 }
  - name: tor2-21
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net21 }
    - { name: net2, type: direct, args: leaf2-2#net21 }
@@ -1311,7 +1311,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net21 }
    - { name: net16, type: direct, args: leaf2-16#net21 }
  - name: tor2-22
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net22 }
    - { name: net2, type: direct, args: leaf2-2#net22 }
@@ -1330,7 +1330,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net22 }
    - { name: net16, type: direct, args: leaf2-16#net22 }
  - name: tor2-23
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net23 }
    - { name: net2, type: direct, args: leaf2-2#net23 }
@@ -1349,7 +1349,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net23 }
    - { name: net16, type: direct, args: leaf2-16#net23 }
  - name: tor2-24
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net24 }
    - { name: net2, type: direct, args: leaf2-2#net24 }
@@ -1368,7 +1368,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net24 }
    - { name: net16, type: direct, args: leaf2-16#net24 }
  - name: tor2-25
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net25 }
    - { name: net2, type: direct, args: leaf2-2#net25 }
@@ -1387,7 +1387,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net25 }
    - { name: net16, type: direct, args: leaf2-16#net25 }
  - name: tor2-26
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net26 }
    - { name: net2, type: direct, args: leaf2-2#net26 }
@@ -1406,7 +1406,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net26 }
    - { name: net16, type: direct, args: leaf2-16#net26 }
  - name: tor2-27
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net27 }
    - { name: net2, type: direct, args: leaf2-2#net27 }
@@ -1425,7 +1425,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net27 }
    - { name: net16, type: direct, args: leaf2-16#net27 }
  - name: tor2-28
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net28 }
    - { name: net2, type: direct, args: leaf2-2#net28 }
@@ -1444,7 +1444,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net28 }
    - { name: net16, type: direct, args: leaf2-16#net28 }
  - name: tor2-29
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net29 }
    - { name: net2, type: direct, args: leaf2-2#net29 }
@@ -1463,7 +1463,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net29 }
    - { name: net16, type: direct, args: leaf2-16#net29 }
  - name: tor2-30
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net30 }
    - { name: net2, type: direct, args: leaf2-2#net30 }
@@ -1482,7 +1482,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net30 }
    - { name: net16, type: direct, args: leaf2-16#net30 }
  - name: tor2-31
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net31 }
    - { name: net2, type: direct, args: leaf2-2#net31 }
@@ -1501,7 +1501,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net31 }
    - { name: net16, type: direct, args: leaf2-16#net31 }
  - name: tor2-32
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net32 }
    - { name: net2, type: direct, args: leaf2-2#net32 }
@@ -1520,7 +1520,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net32 }
    - { name: net16, type: direct, args: leaf2-16#net32 }
  - name: tor2-33
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net33 }
    - { name: net2, type: direct, args: leaf2-2#net33 }
@@ -1539,7 +1539,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net33 }
    - { name: net16, type: direct, args: leaf2-16#net33 }
  - name: tor2-34
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net34 }
    - { name: net2, type: direct, args: leaf2-2#net34 }
@@ -1558,7 +1558,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net34 }
    - { name: net16, type: direct, args: leaf2-16#net34 }
  - name: tor2-35
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net35 }
    - { name: net2, type: direct, args: leaf2-2#net35 }
@@ -1577,7 +1577,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net35 }
    - { name: net16, type: direct, args: leaf2-16#net35 }
  - name: tor2-36
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net36 }
    - { name: net2, type: direct, args: leaf2-2#net36 }
@@ -1596,7 +1596,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net36 }
    - { name: net16, type: direct, args: leaf2-16#net36 }
  - name: tor2-37
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net37 }
    - { name: net2, type: direct, args: leaf2-2#net37 }
@@ -1615,7 +1615,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net37 }
    - { name: net16, type: direct, args: leaf2-16#net37 }
  - name: tor2-38
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net38 }
    - { name: net2, type: direct, args: leaf2-2#net38 }
@@ -1634,7 +1634,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net38 }
    - { name: net16, type: direct, args: leaf2-16#net38 }
  - name: tor2-39
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net39 }
    - { name: net2, type: direct, args: leaf2-2#net39 }
@@ -1653,7 +1653,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net39 }
    - { name: net16, type: direct, args: leaf2-16#net39 }
  - name: tor2-40
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net40 }
    - { name: net2, type: direct, args: leaf2-2#net40 }
@@ -1672,7 +1672,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net40 }
    - { name: net16, type: direct, args: leaf2-16#net40 }
  - name: tor2-41
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net41 }
    - { name: net2, type: direct, args: leaf2-2#net41 }
@@ -1691,7 +1691,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net41 }
    - { name: net16, type: direct, args: leaf2-16#net41 }
  - name: tor2-42
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net42 }
    - { name: net2, type: direct, args: leaf2-2#net42 }
@@ -1710,7 +1710,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net42 }
    - { name: net16, type: direct, args: leaf2-16#net42 }
  - name: tor2-43
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net43 }
    - { name: net2, type: direct, args: leaf2-2#net43 }
@@ -1729,7 +1729,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net43 }
    - { name: net16, type: direct, args: leaf2-16#net43 }
  - name: tor2-44
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net44 }
    - { name: net2, type: direct, args: leaf2-2#net44 }
@@ -1748,7 +1748,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net44 }
    - { name: net16, type: direct, args: leaf2-16#net44 }
  - name: tor2-45
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net45 }
    - { name: net2, type: direct, args: leaf2-2#net45 }
@@ -1767,7 +1767,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net45 }
    - { name: net16, type: direct, args: leaf2-16#net45 }
  - name: tor2-46
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net46 }
    - { name: net2, type: direct, args: leaf2-2#net46 }
@@ -1786,7 +1786,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net46 }
    - { name: net16, type: direct, args: leaf2-16#net46 }
  - name: tor2-47
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net47 }
    - { name: net2, type: direct, args: leaf2-2#net47 }
@@ -1805,7 +1805,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net47 }
    - { name: net16, type: direct, args: leaf2-16#net47 }
  - name: tor2-48
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf2-1#net48 }
    - { name: net2, type: direct, args: leaf2-2#net48 }
@@ -1824,7 +1824,7 @@ nodes:
    - { name: net15, type: direct, args: leaf2-15#net48 }
    - { name: net16, type: direct, args: leaf2-16#net48 }
  - name: tor3-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net1 }
    - { name: net2, type: direct, args: leaf3-2#net1 }
@@ -1843,7 +1843,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net1 }
    - { name: net16, type: direct, args: leaf3-16#net1 }
  - name: tor3-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net2 }
    - { name: net2, type: direct, args: leaf3-2#net2 }
@@ -1862,7 +1862,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net2 }
    - { name: net16, type: direct, args: leaf3-16#net2 }
  - name: tor3-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net3 }
    - { name: net2, type: direct, args: leaf3-2#net3 }
@@ -1881,7 +1881,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net3 }
    - { name: net16, type: direct, args: leaf3-16#net3 }
  - name: tor3-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net4 }
    - { name: net2, type: direct, args: leaf3-2#net4 }
@@ -1900,7 +1900,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net4 }
    - { name: net16, type: direct, args: leaf3-16#net4 }
  - name: tor3-5
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net5 }
    - { name: net2, type: direct, args: leaf3-2#net5 }
@@ -1919,7 +1919,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net5 }
    - { name: net16, type: direct, args: leaf3-16#net5 }
  - name: tor3-6
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net6 }
    - { name: net2, type: direct, args: leaf3-2#net6 }
@@ -1938,7 +1938,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net6 }
    - { name: net16, type: direct, args: leaf3-16#net6 }
  - name: tor3-7
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net7 }
    - { name: net2, type: direct, args: leaf3-2#net7 }
@@ -1957,7 +1957,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net7 }
    - { name: net16, type: direct, args: leaf3-16#net7 }
  - name: tor3-8
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net8 }
    - { name: net2, type: direct, args: leaf3-2#net8 }
@@ -1976,7 +1976,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net8 }
    - { name: net16, type: direct, args: leaf3-16#net8 }
  - name: tor3-9
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net9 }
    - { name: net2, type: direct, args: leaf3-2#net9 }
@@ -1995,7 +1995,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net9 }
    - { name: net16, type: direct, args: leaf3-16#net9 }
  - name: tor3-10
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net10 }
    - { name: net2, type: direct, args: leaf3-2#net10 }
@@ -2014,7 +2014,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net10 }
    - { name: net16, type: direct, args: leaf3-16#net10 }
  - name: tor3-11
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net11 }
    - { name: net2, type: direct, args: leaf3-2#net11 }
@@ -2033,7 +2033,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net11 }
    - { name: net16, type: direct, args: leaf3-16#net11 }
  - name: tor3-12
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net12 }
    - { name: net2, type: direct, args: leaf3-2#net12 }
@@ -2052,7 +2052,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net12 }
    - { name: net16, type: direct, args: leaf3-16#net12 }
  - name: tor3-13
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net13 }
    - { name: net2, type: direct, args: leaf3-2#net13 }
@@ -2071,7 +2071,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net13 }
    - { name: net16, type: direct, args: leaf3-16#net13 }
  - name: tor3-14
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net14 }
    - { name: net2, type: direct, args: leaf3-2#net14 }
@@ -2090,7 +2090,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net14 }
    - { name: net16, type: direct, args: leaf3-16#net14 }
  - name: tor3-15
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net15 }
    - { name: net2, type: direct, args: leaf3-2#net15 }
@@ -2109,7 +2109,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net15 }
    - { name: net16, type: direct, args: leaf3-16#net15 }
  - name: tor3-16
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net16 }
    - { name: net2, type: direct, args: leaf3-2#net16 }
@@ -2128,7 +2128,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net16 }
    - { name: net16, type: direct, args: leaf3-16#net16 }
  - name: tor3-17
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net17 }
    - { name: net2, type: direct, args: leaf3-2#net17 }
@@ -2147,7 +2147,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net17 }
    - { name: net16, type: direct, args: leaf3-16#net17 }
  - name: tor3-18
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net18 }
    - { name: net2, type: direct, args: leaf3-2#net18 }
@@ -2166,7 +2166,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net18 }
    - { name: net16, type: direct, args: leaf3-16#net18 }
  - name: tor3-19
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net19 }
    - { name: net2, type: direct, args: leaf3-2#net19 }
@@ -2185,7 +2185,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net19 }
    - { name: net16, type: direct, args: leaf3-16#net19 }
  - name: tor3-20
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net20 }
    - { name: net2, type: direct, args: leaf3-2#net20 }
@@ -2204,7 +2204,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net20 }
    - { name: net16, type: direct, args: leaf3-16#net20 }
  - name: tor3-21
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net21 }
    - { name: net2, type: direct, args: leaf3-2#net21 }
@@ -2223,7 +2223,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net21 }
    - { name: net16, type: direct, args: leaf3-16#net21 }
  - name: tor3-22
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net22 }
    - { name: net2, type: direct, args: leaf3-2#net22 }
@@ -2242,7 +2242,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net22 }
    - { name: net16, type: direct, args: leaf3-16#net22 }
  - name: tor3-23
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net23 }
    - { name: net2, type: direct, args: leaf3-2#net23 }
@@ -2261,7 +2261,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net23 }
    - { name: net16, type: direct, args: leaf3-16#net23 }
  - name: tor3-24
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net24 }
    - { name: net2, type: direct, args: leaf3-2#net24 }
@@ -2280,7 +2280,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net24 }
    - { name: net16, type: direct, args: leaf3-16#net24 }
  - name: tor3-25
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net25 }
    - { name: net2, type: direct, args: leaf3-2#net25 }
@@ -2299,7 +2299,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net25 }
    - { name: net16, type: direct, args: leaf3-16#net25 }
  - name: tor3-26
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net26 }
    - { name: net2, type: direct, args: leaf3-2#net26 }
@@ -2318,7 +2318,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net26 }
    - { name: net16, type: direct, args: leaf3-16#net26 }
  - name: tor3-27
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net27 }
    - { name: net2, type: direct, args: leaf3-2#net27 }
@@ -2337,7 +2337,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net27 }
    - { name: net16, type: direct, args: leaf3-16#net27 }
  - name: tor3-28
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net28 }
    - { name: net2, type: direct, args: leaf3-2#net28 }
@@ -2356,7 +2356,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net28 }
    - { name: net16, type: direct, args: leaf3-16#net28 }
  - name: tor3-29
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net29 }
    - { name: net2, type: direct, args: leaf3-2#net29 }
@@ -2375,7 +2375,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net29 }
    - { name: net16, type: direct, args: leaf3-16#net29 }
  - name: tor3-30
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net30 }
    - { name: net2, type: direct, args: leaf3-2#net30 }
@@ -2394,7 +2394,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net30 }
    - { name: net16, type: direct, args: leaf3-16#net30 }
  - name: tor3-31
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net31 }
    - { name: net2, type: direct, args: leaf3-2#net31 }
@@ -2413,7 +2413,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net31 }
    - { name: net16, type: direct, args: leaf3-16#net31 }
  - name: tor3-32
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net32 }
    - { name: net2, type: direct, args: leaf3-2#net32 }
@@ -2432,7 +2432,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net32 }
    - { name: net16, type: direct, args: leaf3-16#net32 }
  - name: tor3-33
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net33 }
    - { name: net2, type: direct, args: leaf3-2#net33 }
@@ -2451,7 +2451,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net33 }
    - { name: net16, type: direct, args: leaf3-16#net33 }
  - name: tor3-34
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net34 }
    - { name: net2, type: direct, args: leaf3-2#net34 }
@@ -2470,7 +2470,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net34 }
    - { name: net16, type: direct, args: leaf3-16#net34 }
  - name: tor3-35
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net35 }
    - { name: net2, type: direct, args: leaf3-2#net35 }
@@ -2489,7 +2489,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net35 }
    - { name: net16, type: direct, args: leaf3-16#net35 }
  - name: tor3-36
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net36 }
    - { name: net2, type: direct, args: leaf3-2#net36 }
@@ -2508,7 +2508,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net36 }
    - { name: net16, type: direct, args: leaf3-16#net36 }
  - name: tor3-37
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net37 }
    - { name: net2, type: direct, args: leaf3-2#net37 }
@@ -2527,7 +2527,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net37 }
    - { name: net16, type: direct, args: leaf3-16#net37 }
  - name: tor3-38
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net38 }
    - { name: net2, type: direct, args: leaf3-2#net38 }
@@ -2546,7 +2546,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net38 }
    - { name: net16, type: direct, args: leaf3-16#net38 }
  - name: tor3-39
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net39 }
    - { name: net2, type: direct, args: leaf3-2#net39 }
@@ -2565,7 +2565,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net39 }
    - { name: net16, type: direct, args: leaf3-16#net39 }
  - name: tor3-40
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net40 }
    - { name: net2, type: direct, args: leaf3-2#net40 }
@@ -2584,7 +2584,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net40 }
    - { name: net16, type: direct, args: leaf3-16#net40 }
  - name: tor3-41
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net41 }
    - { name: net2, type: direct, args: leaf3-2#net41 }
@@ -2603,7 +2603,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net41 }
    - { name: net16, type: direct, args: leaf3-16#net41 }
  - name: tor3-42
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net42 }
    - { name: net2, type: direct, args: leaf3-2#net42 }
@@ -2622,7 +2622,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net42 }
    - { name: net16, type: direct, args: leaf3-16#net42 }
  - name: tor3-43
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net43 }
    - { name: net2, type: direct, args: leaf3-2#net43 }
@@ -2641,7 +2641,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net43 }
    - { name: net16, type: direct, args: leaf3-16#net43 }
  - name: tor3-44
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net44 }
    - { name: net2, type: direct, args: leaf3-2#net44 }
@@ -2660,7 +2660,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net44 }
    - { name: net16, type: direct, args: leaf3-16#net44 }
  - name: tor3-45
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net45 }
    - { name: net2, type: direct, args: leaf3-2#net45 }
@@ -2679,7 +2679,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net45 }
    - { name: net16, type: direct, args: leaf3-16#net45 }
  - name: tor3-46
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net46 }
    - { name: net2, type: direct, args: leaf3-2#net46 }
@@ -2698,7 +2698,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net46 }
    - { name: net16, type: direct, args: leaf3-16#net46 }
  - name: tor3-47
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net47 }
    - { name: net2, type: direct, args: leaf3-2#net47 }
@@ -2717,7 +2717,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net47 }
    - { name: net16, type: direct, args: leaf3-16#net47 }
  - name: tor3-48
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf3-1#net48 }
    - { name: net2, type: direct, args: leaf3-2#net48 }
@@ -2736,7 +2736,7 @@ nodes:
    - { name: net15, type: direct, args: leaf3-15#net48 }
    - { name: net16, type: direct, args: leaf3-16#net48 }
  - name: tor4-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net1 }
    - { name: net2, type: direct, args: leaf4-2#net1 }
@@ -2755,7 +2755,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net1 }
    - { name: net16, type: direct, args: leaf4-16#net1 }
  - name: tor4-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net2 }
    - { name: net2, type: direct, args: leaf4-2#net2 }
@@ -2774,7 +2774,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net2 }
    - { name: net16, type: direct, args: leaf4-16#net2 }
  - name: tor4-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net3 }
    - { name: net2, type: direct, args: leaf4-2#net3 }
@@ -2793,7 +2793,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net3 }
    - { name: net16, type: direct, args: leaf4-16#net3 }
  - name: tor4-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net4 }
    - { name: net2, type: direct, args: leaf4-2#net4 }
@@ -2812,7 +2812,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net4 }
    - { name: net16, type: direct, args: leaf4-16#net4 }
  - name: tor4-5
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net5 }
    - { name: net2, type: direct, args: leaf4-2#net5 }
@@ -2831,7 +2831,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net5 }
    - { name: net16, type: direct, args: leaf4-16#net5 }
  - name: tor4-6
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net6 }
    - { name: net2, type: direct, args: leaf4-2#net6 }
@@ -2850,7 +2850,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net6 }
    - { name: net16, type: direct, args: leaf4-16#net6 }
  - name: tor4-7
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net7 }
    - { name: net2, type: direct, args: leaf4-2#net7 }
@@ -2869,7 +2869,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net7 }
    - { name: net16, type: direct, args: leaf4-16#net7 }
  - name: tor4-8
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net8 }
    - { name: net2, type: direct, args: leaf4-2#net8 }
@@ -2888,7 +2888,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net8 }
    - { name: net16, type: direct, args: leaf4-16#net8 }
  - name: tor4-9
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net9 }
    - { name: net2, type: direct, args: leaf4-2#net9 }
@@ -2907,7 +2907,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net9 }
    - { name: net16, type: direct, args: leaf4-16#net9 }
  - name: tor4-10
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net10 }
    - { name: net2, type: direct, args: leaf4-2#net10 }
@@ -2926,7 +2926,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net10 }
    - { name: net16, type: direct, args: leaf4-16#net10 }
  - name: tor4-11
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net11 }
    - { name: net2, type: direct, args: leaf4-2#net11 }
@@ -2945,7 +2945,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net11 }
    - { name: net16, type: direct, args: leaf4-16#net11 }
  - name: tor4-12
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net12 }
    - { name: net2, type: direct, args: leaf4-2#net12 }
@@ -2964,7 +2964,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net12 }
    - { name: net16, type: direct, args: leaf4-16#net12 }
  - name: tor4-13
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net13 }
    - { name: net2, type: direct, args: leaf4-2#net13 }
@@ -2983,7 +2983,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net13 }
    - { name: net16, type: direct, args: leaf4-16#net13 }
  - name: tor4-14
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net14 }
    - { name: net2, type: direct, args: leaf4-2#net14 }
@@ -3002,7 +3002,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net14 }
    - { name: net16, type: direct, args: leaf4-16#net14 }
  - name: tor4-15
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net15 }
    - { name: net2, type: direct, args: leaf4-2#net15 }
@@ -3021,7 +3021,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net15 }
    - { name: net16, type: direct, args: leaf4-16#net15 }
  - name: tor4-16
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net16 }
    - { name: net2, type: direct, args: leaf4-2#net16 }
@@ -3040,7 +3040,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net16 }
    - { name: net16, type: direct, args: leaf4-16#net16 }
  - name: tor4-17
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net17 }
    - { name: net2, type: direct, args: leaf4-2#net17 }
@@ -3059,7 +3059,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net17 }
    - { name: net16, type: direct, args: leaf4-16#net17 }
  - name: tor4-18
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net18 }
    - { name: net2, type: direct, args: leaf4-2#net18 }
@@ -3078,7 +3078,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net18 }
    - { name: net16, type: direct, args: leaf4-16#net18 }
  - name: tor4-19
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net19 }
    - { name: net2, type: direct, args: leaf4-2#net19 }
@@ -3097,7 +3097,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net19 }
    - { name: net16, type: direct, args: leaf4-16#net19 }
  - name: tor4-20
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net20 }
    - { name: net2, type: direct, args: leaf4-2#net20 }
@@ -3116,7 +3116,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net20 }
    - { name: net16, type: direct, args: leaf4-16#net20 }
  - name: tor4-21
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net21 }
    - { name: net2, type: direct, args: leaf4-2#net21 }
@@ -3135,7 +3135,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net21 }
    - { name: net16, type: direct, args: leaf4-16#net21 }
  - name: tor4-22
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net22 }
    - { name: net2, type: direct, args: leaf4-2#net22 }
@@ -3154,7 +3154,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net22 }
    - { name: net16, type: direct, args: leaf4-16#net22 }
  - name: tor4-23
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net23 }
    - { name: net2, type: direct, args: leaf4-2#net23 }
@@ -3173,7 +3173,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net23 }
    - { name: net16, type: direct, args: leaf4-16#net23 }
  - name: tor4-24
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net24 }
    - { name: net2, type: direct, args: leaf4-2#net24 }
@@ -3192,7 +3192,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net24 }
    - { name: net16, type: direct, args: leaf4-16#net24 }
  - name: tor4-25
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net25 }
    - { name: net2, type: direct, args: leaf4-2#net25 }
@@ -3211,7 +3211,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net25 }
    - { name: net16, type: direct, args: leaf4-16#net25 }
  - name: tor4-26
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net26 }
    - { name: net2, type: direct, args: leaf4-2#net26 }
@@ -3230,7 +3230,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net26 }
    - { name: net16, type: direct, args: leaf4-16#net26 }
  - name: tor4-27
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net27 }
    - { name: net2, type: direct, args: leaf4-2#net27 }
@@ -3249,7 +3249,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net27 }
    - { name: net16, type: direct, args: leaf4-16#net27 }
  - name: tor4-28
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net28 }
    - { name: net2, type: direct, args: leaf4-2#net28 }
@@ -3268,7 +3268,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net28 }
    - { name: net16, type: direct, args: leaf4-16#net28 }
  - name: tor4-29
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net29 }
    - { name: net2, type: direct, args: leaf4-2#net29 }
@@ -3287,7 +3287,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net29 }
    - { name: net16, type: direct, args: leaf4-16#net29 }
  - name: tor4-30
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net30 }
    - { name: net2, type: direct, args: leaf4-2#net30 }
@@ -3306,7 +3306,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net30 }
    - { name: net16, type: direct, args: leaf4-16#net30 }
  - name: tor4-31
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net31 }
    - { name: net2, type: direct, args: leaf4-2#net31 }
@@ -3325,7 +3325,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net31 }
    - { name: net16, type: direct, args: leaf4-16#net31 }
  - name: tor4-32
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net32 }
    - { name: net2, type: direct, args: leaf4-2#net32 }
@@ -3344,7 +3344,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net32 }
    - { name: net16, type: direct, args: leaf4-16#net32 }
  - name: tor4-33
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net33 }
    - { name: net2, type: direct, args: leaf4-2#net33 }
@@ -3363,7 +3363,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net33 }
    - { name: net16, type: direct, args: leaf4-16#net33 }
  - name: tor4-34
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net34 }
    - { name: net2, type: direct, args: leaf4-2#net34 }
@@ -3382,7 +3382,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net34 }
    - { name: net16, type: direct, args: leaf4-16#net34 }
  - name: tor4-35
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net35 }
    - { name: net2, type: direct, args: leaf4-2#net35 }
@@ -3401,7 +3401,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net35 }
    - { name: net16, type: direct, args: leaf4-16#net35 }
  - name: tor4-36
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net36 }
    - { name: net2, type: direct, args: leaf4-2#net36 }
@@ -3420,7 +3420,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net36 }
    - { name: net16, type: direct, args: leaf4-16#net36 }
  - name: tor4-37
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net37 }
    - { name: net2, type: direct, args: leaf4-2#net37 }
@@ -3439,7 +3439,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net37 }
    - { name: net16, type: direct, args: leaf4-16#net37 }
  - name: tor4-38
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net38 }
    - { name: net2, type: direct, args: leaf4-2#net38 }
@@ -3458,7 +3458,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net38 }
    - { name: net16, type: direct, args: leaf4-16#net38 }
  - name: tor4-39
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net39 }
    - { name: net2, type: direct, args: leaf4-2#net39 }
@@ -3477,7 +3477,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net39 }
    - { name: net16, type: direct, args: leaf4-16#net39 }
  - name: tor4-40
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net40 }
    - { name: net2, type: direct, args: leaf4-2#net40 }
@@ -3496,7 +3496,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net40 }
    - { name: net16, type: direct, args: leaf4-16#net40 }
  - name: tor4-41
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net41 }
    - { name: net2, type: direct, args: leaf4-2#net41 }
@@ -3515,7 +3515,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net41 }
    - { name: net16, type: direct, args: leaf4-16#net41 }
  - name: tor4-42
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net42 }
    - { name: net2, type: direct, args: leaf4-2#net42 }
@@ -3534,7 +3534,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net42 }
    - { name: net16, type: direct, args: leaf4-16#net42 }
  - name: tor4-43
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net43 }
    - { name: net2, type: direct, args: leaf4-2#net43 }
@@ -3553,7 +3553,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net43 }
    - { name: net16, type: direct, args: leaf4-16#net43 }
  - name: tor4-44
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net44 }
    - { name: net2, type: direct, args: leaf4-2#net44 }
@@ -3572,7 +3572,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net44 }
    - { name: net16, type: direct, args: leaf4-16#net44 }
  - name: tor4-45
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net45 }
    - { name: net2, type: direct, args: leaf4-2#net45 }
@@ -3591,7 +3591,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net45 }
    - { name: net16, type: direct, args: leaf4-16#net45 }
  - name: tor4-46
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net46 }
    - { name: net2, type: direct, args: leaf4-2#net46 }
@@ -3610,7 +3610,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net46 }
    - { name: net16, type: direct, args: leaf4-16#net46 }
  - name: tor4-47
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net47 }
    - { name: net2, type: direct, args: leaf4-2#net47 }
@@ -3629,7 +3629,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net47 }
    - { name: net16, type: direct, args: leaf4-16#net47 }
  - name: tor4-48
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf4-1#net48 }
    - { name: net2, type: direct, args: leaf4-2#net48 }
@@ -3648,7 +3648,7 @@ nodes:
    - { name: net15, type: direct, args: leaf4-15#net48 }
    - { name: net16, type: direct, args: leaf4-16#net48 }
  - name: tor5-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net1 }
    - { name: net2, type: direct, args: leaf5-2#net1 }
@@ -3667,7 +3667,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net1 }
    - { name: net16, type: direct, args: leaf5-16#net1 }
  - name: tor5-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net2 }
    - { name: net2, type: direct, args: leaf5-2#net2 }
@@ -3686,7 +3686,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net2 }
    - { name: net16, type: direct, args: leaf5-16#net2 }
  - name: tor5-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net3 }
    - { name: net2, type: direct, args: leaf5-2#net3 }
@@ -3705,7 +3705,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net3 }
    - { name: net16, type: direct, args: leaf5-16#net3 }
  - name: tor5-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net4 }
    - { name: net2, type: direct, args: leaf5-2#net4 }
@@ -3724,7 +3724,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net4 }
    - { name: net16, type: direct, args: leaf5-16#net4 }
  - name: tor5-5
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net5 }
    - { name: net2, type: direct, args: leaf5-2#net5 }
@@ -3743,7 +3743,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net5 }
    - { name: net16, type: direct, args: leaf5-16#net5 }
  - name: tor5-6
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net6 }
    - { name: net2, type: direct, args: leaf5-2#net6 }
@@ -3762,7 +3762,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net6 }
    - { name: net16, type: direct, args: leaf5-16#net6 }
  - name: tor5-7
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net7 }
    - { name: net2, type: direct, args: leaf5-2#net7 }
@@ -3781,7 +3781,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net7 }
    - { name: net16, type: direct, args: leaf5-16#net7 }
  - name: tor5-8
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net8 }
    - { name: net2, type: direct, args: leaf5-2#net8 }
@@ -3800,7 +3800,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net8 }
    - { name: net16, type: direct, args: leaf5-16#net8 }
  - name: tor5-9
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net9 }
    - { name: net2, type: direct, args: leaf5-2#net9 }
@@ -3819,7 +3819,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net9 }
    - { name: net16, type: direct, args: leaf5-16#net9 }
  - name: tor5-10
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net10 }
    - { name: net2, type: direct, args: leaf5-2#net10 }
@@ -3838,7 +3838,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net10 }
    - { name: net16, type: direct, args: leaf5-16#net10 }
  - name: tor5-11
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net11 }
    - { name: net2, type: direct, args: leaf5-2#net11 }
@@ -3857,7 +3857,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net11 }
    - { name: net16, type: direct, args: leaf5-16#net11 }
  - name: tor5-12
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net12 }
    - { name: net2, type: direct, args: leaf5-2#net12 }
@@ -3876,7 +3876,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net12 }
    - { name: net16, type: direct, args: leaf5-16#net12 }
  - name: tor5-13
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net13 }
    - { name: net2, type: direct, args: leaf5-2#net13 }
@@ -3895,7 +3895,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net13 }
    - { name: net16, type: direct, args: leaf5-16#net13 }
  - name: tor5-14
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net14 }
    - { name: net2, type: direct, args: leaf5-2#net14 }
@@ -3914,7 +3914,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net14 }
    - { name: net16, type: direct, args: leaf5-16#net14 }
  - name: tor5-15
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net15 }
    - { name: net2, type: direct, args: leaf5-2#net15 }
@@ -3933,7 +3933,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net15 }
    - { name: net16, type: direct, args: leaf5-16#net15 }
  - name: tor5-16
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net16 }
    - { name: net2, type: direct, args: leaf5-2#net16 }
@@ -3952,7 +3952,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net16 }
    - { name: net16, type: direct, args: leaf5-16#net16 }
  - name: tor5-17
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net17 }
    - { name: net2, type: direct, args: leaf5-2#net17 }
@@ -3971,7 +3971,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net17 }
    - { name: net16, type: direct, args: leaf5-16#net17 }
  - name: tor5-18
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net18 }
    - { name: net2, type: direct, args: leaf5-2#net18 }
@@ -3990,7 +3990,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net18 }
    - { name: net16, type: direct, args: leaf5-16#net18 }
  - name: tor5-19
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net19 }
    - { name: net2, type: direct, args: leaf5-2#net19 }
@@ -4009,7 +4009,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net19 }
    - { name: net16, type: direct, args: leaf5-16#net19 }
  - name: tor5-20
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net20 }
    - { name: net2, type: direct, args: leaf5-2#net20 }
@@ -4028,7 +4028,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net20 }
    - { name: net16, type: direct, args: leaf5-16#net20 }
  - name: tor5-21
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net21 }
    - { name: net2, type: direct, args: leaf5-2#net21 }
@@ -4047,7 +4047,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net21 }
    - { name: net16, type: direct, args: leaf5-16#net21 }
  - name: tor5-22
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net22 }
    - { name: net2, type: direct, args: leaf5-2#net22 }
@@ -4066,7 +4066,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net22 }
    - { name: net16, type: direct, args: leaf5-16#net22 }
  - name: tor5-23
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net23 }
    - { name: net2, type: direct, args: leaf5-2#net23 }
@@ -4085,7 +4085,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net23 }
    - { name: net16, type: direct, args: leaf5-16#net23 }
  - name: tor5-24
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net24 }
    - { name: net2, type: direct, args: leaf5-2#net24 }
@@ -4104,7 +4104,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net24 }
    - { name: net16, type: direct, args: leaf5-16#net24 }
  - name: tor5-25
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net25 }
    - { name: net2, type: direct, args: leaf5-2#net25 }
@@ -4123,7 +4123,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net25 }
    - { name: net16, type: direct, args: leaf5-16#net25 }
  - name: tor5-26
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net26 }
    - { name: net2, type: direct, args: leaf5-2#net26 }
@@ -4142,7 +4142,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net26 }
    - { name: net16, type: direct, args: leaf5-16#net26 }
  - name: tor5-27
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net27 }
    - { name: net2, type: direct, args: leaf5-2#net27 }
@@ -4161,7 +4161,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net27 }
    - { name: net16, type: direct, args: leaf5-16#net27 }
  - name: tor5-28
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net28 }
    - { name: net2, type: direct, args: leaf5-2#net28 }
@@ -4180,7 +4180,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net28 }
    - { name: net16, type: direct, args: leaf5-16#net28 }
  - name: tor5-29
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net29 }
    - { name: net2, type: direct, args: leaf5-2#net29 }
@@ -4199,7 +4199,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net29 }
    - { name: net16, type: direct, args: leaf5-16#net29 }
  - name: tor5-30
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net30 }
    - { name: net2, type: direct, args: leaf5-2#net30 }
@@ -4218,7 +4218,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net30 }
    - { name: net16, type: direct, args: leaf5-16#net30 }
  - name: tor5-31
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net31 }
    - { name: net2, type: direct, args: leaf5-2#net31 }
@@ -4237,7 +4237,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net31 }
    - { name: net16, type: direct, args: leaf5-16#net31 }
  - name: tor5-32
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net32 }
    - { name: net2, type: direct, args: leaf5-2#net32 }
@@ -4256,7 +4256,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net32 }
    - { name: net16, type: direct, args: leaf5-16#net32 }
  - name: tor5-33
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net33 }
    - { name: net2, type: direct, args: leaf5-2#net33 }
@@ -4275,7 +4275,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net33 }
    - { name: net16, type: direct, args: leaf5-16#net33 }
  - name: tor5-34
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net34 }
    - { name: net2, type: direct, args: leaf5-2#net34 }
@@ -4294,7 +4294,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net34 }
    - { name: net16, type: direct, args: leaf5-16#net34 }
  - name: tor5-35
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net35 }
    - { name: net2, type: direct, args: leaf5-2#net35 }
@@ -4313,7 +4313,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net35 }
    - { name: net16, type: direct, args: leaf5-16#net35 }
  - name: tor5-36
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net36 }
    - { name: net2, type: direct, args: leaf5-2#net36 }
@@ -4332,7 +4332,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net36 }
    - { name: net16, type: direct, args: leaf5-16#net36 }
  - name: tor5-37
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net37 }
    - { name: net2, type: direct, args: leaf5-2#net37 }
@@ -4351,7 +4351,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net37 }
    - { name: net16, type: direct, args: leaf5-16#net37 }
  - name: tor5-38
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net38 }
    - { name: net2, type: direct, args: leaf5-2#net38 }
@@ -4370,7 +4370,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net38 }
    - { name: net16, type: direct, args: leaf5-16#net38 }
  - name: tor5-39
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net39 }
    - { name: net2, type: direct, args: leaf5-2#net39 }
@@ -4389,7 +4389,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net39 }
    - { name: net16, type: direct, args: leaf5-16#net39 }
  - name: tor5-40
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net40 }
    - { name: net2, type: direct, args: leaf5-2#net40 }
@@ -4408,7 +4408,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net40 }
    - { name: net16, type: direct, args: leaf5-16#net40 }
  - name: tor5-41
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net41 }
    - { name: net2, type: direct, args: leaf5-2#net41 }
@@ -4427,7 +4427,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net41 }
    - { name: net16, type: direct, args: leaf5-16#net41 }
  - name: tor5-42
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net42 }
    - { name: net2, type: direct, args: leaf5-2#net42 }
@@ -4446,7 +4446,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net42 }
    - { name: net16, type: direct, args: leaf5-16#net42 }
  - name: tor5-43
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net43 }
    - { name: net2, type: direct, args: leaf5-2#net43 }
@@ -4465,7 +4465,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net43 }
    - { name: net16, type: direct, args: leaf5-16#net43 }
  - name: tor5-44
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net44 }
    - { name: net2, type: direct, args: leaf5-2#net44 }
@@ -4484,7 +4484,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net44 }
    - { name: net16, type: direct, args: leaf5-16#net44 }
  - name: tor5-45
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net45 }
    - { name: net2, type: direct, args: leaf5-2#net45 }
@@ -4503,7 +4503,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net45 }
    - { name: net16, type: direct, args: leaf5-16#net45 }
  - name: tor5-46
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net46 }
    - { name: net2, type: direct, args: leaf5-2#net46 }
@@ -4522,7 +4522,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net46 }
    - { name: net16, type: direct, args: leaf5-16#net46 }
  - name: tor5-47
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net47 }
    - { name: net2, type: direct, args: leaf5-2#net47 }
@@ -4541,7 +4541,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net47 }
    - { name: net16, type: direct, args: leaf5-16#net47 }
  - name: tor5-48
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf5-1#net48 }
    - { name: net2, type: direct, args: leaf5-2#net48 }
@@ -4560,7 +4560,7 @@ nodes:
    - { name: net15, type: direct, args: leaf5-15#net48 }
    - { name: net16, type: direct, args: leaf5-16#net48 }
  - name: tor6-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net1 }
    - { name: net2, type: direct, args: leaf6-2#net1 }
@@ -4579,7 +4579,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net1 }
    - { name: net16, type: direct, args: leaf6-16#net1 }
  - name: tor6-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net2 }
    - { name: net2, type: direct, args: leaf6-2#net2 }
@@ -4598,7 +4598,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net2 }
    - { name: net16, type: direct, args: leaf6-16#net2 }
  - name: tor6-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net3 }
    - { name: net2, type: direct, args: leaf6-2#net3 }
@@ -4617,7 +4617,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net3 }
    - { name: net16, type: direct, args: leaf6-16#net3 }
  - name: tor6-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net4 }
    - { name: net2, type: direct, args: leaf6-2#net4 }
@@ -4636,7 +4636,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net4 }
    - { name: net16, type: direct, args: leaf6-16#net4 }
  - name: tor6-5
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net5 }
    - { name: net2, type: direct, args: leaf6-2#net5 }
@@ -4655,7 +4655,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net5 }
    - { name: net16, type: direct, args: leaf6-16#net5 }
  - name: tor6-6
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net6 }
    - { name: net2, type: direct, args: leaf6-2#net6 }
@@ -4674,7 +4674,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net6 }
    - { name: net16, type: direct, args: leaf6-16#net6 }
  - name: tor6-7
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net7 }
    - { name: net2, type: direct, args: leaf6-2#net7 }
@@ -4693,7 +4693,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net7 }
    - { name: net16, type: direct, args: leaf6-16#net7 }
  - name: tor6-8
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net8 }
    - { name: net2, type: direct, args: leaf6-2#net8 }
@@ -4712,7 +4712,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net8 }
    - { name: net16, type: direct, args: leaf6-16#net8 }
  - name: tor6-9
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net9 }
    - { name: net2, type: direct, args: leaf6-2#net9 }
@@ -4731,7 +4731,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net9 }
    - { name: net16, type: direct, args: leaf6-16#net9 }
  - name: tor6-10
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net10 }
    - { name: net2, type: direct, args: leaf6-2#net10 }
@@ -4750,7 +4750,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net10 }
    - { name: net16, type: direct, args: leaf6-16#net10 }
  - name: tor6-11
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net11 }
    - { name: net2, type: direct, args: leaf6-2#net11 }
@@ -4769,7 +4769,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net11 }
    - { name: net16, type: direct, args: leaf6-16#net11 }
  - name: tor6-12
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net12 }
    - { name: net2, type: direct, args: leaf6-2#net12 }
@@ -4788,7 +4788,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net12 }
    - { name: net16, type: direct, args: leaf6-16#net12 }
  - name: tor6-13
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net13 }
    - { name: net2, type: direct, args: leaf6-2#net13 }
@@ -4807,7 +4807,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net13 }
    - { name: net16, type: direct, args: leaf6-16#net13 }
  - name: tor6-14
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net14 }
    - { name: net2, type: direct, args: leaf6-2#net14 }
@@ -4826,7 +4826,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net14 }
    - { name: net16, type: direct, args: leaf6-16#net14 }
  - name: tor6-15
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net15 }
    - { name: net2, type: direct, args: leaf6-2#net15 }
@@ -4845,7 +4845,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net15 }
    - { name: net16, type: direct, args: leaf6-16#net15 }
  - name: tor6-16
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net16 }
    - { name: net2, type: direct, args: leaf6-2#net16 }
@@ -4864,7 +4864,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net16 }
    - { name: net16, type: direct, args: leaf6-16#net16 }
  - name: tor6-17
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net17 }
    - { name: net2, type: direct, args: leaf6-2#net17 }
@@ -4883,7 +4883,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net17 }
    - { name: net16, type: direct, args: leaf6-16#net17 }
  - name: tor6-18
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net18 }
    - { name: net2, type: direct, args: leaf6-2#net18 }
@@ -4902,7 +4902,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net18 }
    - { name: net16, type: direct, args: leaf6-16#net18 }
  - name: tor6-19
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net19 }
    - { name: net2, type: direct, args: leaf6-2#net19 }
@@ -4921,7 +4921,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net19 }
    - { name: net16, type: direct, args: leaf6-16#net19 }
  - name: tor6-20
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net20 }
    - { name: net2, type: direct, args: leaf6-2#net20 }
@@ -4940,7 +4940,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net20 }
    - { name: net16, type: direct, args: leaf6-16#net20 }
  - name: tor6-21
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net21 }
    - { name: net2, type: direct, args: leaf6-2#net21 }
@@ -4959,7 +4959,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net21 }
    - { name: net16, type: direct, args: leaf6-16#net21 }
  - name: tor6-22
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net22 }
    - { name: net2, type: direct, args: leaf6-2#net22 }
@@ -4978,7 +4978,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net22 }
    - { name: net16, type: direct, args: leaf6-16#net22 }
  - name: tor6-23
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net23 }
    - { name: net2, type: direct, args: leaf6-2#net23 }
@@ -4997,7 +4997,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net23 }
    - { name: net16, type: direct, args: leaf6-16#net23 }
  - name: tor6-24
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net24 }
    - { name: net2, type: direct, args: leaf6-2#net24 }
@@ -5016,7 +5016,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net24 }
    - { name: net16, type: direct, args: leaf6-16#net24 }
  - name: tor6-25
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net25 }
    - { name: net2, type: direct, args: leaf6-2#net25 }
@@ -5035,7 +5035,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net25 }
    - { name: net16, type: direct, args: leaf6-16#net25 }
  - name: tor6-26
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net26 }
    - { name: net2, type: direct, args: leaf6-2#net26 }
@@ -5054,7 +5054,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net26 }
    - { name: net16, type: direct, args: leaf6-16#net26 }
  - name: tor6-27
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net27 }
    - { name: net2, type: direct, args: leaf6-2#net27 }
@@ -5073,7 +5073,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net27 }
    - { name: net16, type: direct, args: leaf6-16#net27 }
  - name: tor6-28
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net28 }
    - { name: net2, type: direct, args: leaf6-2#net28 }
@@ -5092,7 +5092,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net28 }
    - { name: net16, type: direct, args: leaf6-16#net28 }
  - name: tor6-29
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net29 }
    - { name: net2, type: direct, args: leaf6-2#net29 }
@@ -5111,7 +5111,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net29 }
    - { name: net16, type: direct, args: leaf6-16#net29 }
  - name: tor6-30
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net30 }
    - { name: net2, type: direct, args: leaf6-2#net30 }
@@ -5130,7 +5130,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net30 }
    - { name: net16, type: direct, args: leaf6-16#net30 }
  - name: tor6-31
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net31 }
    - { name: net2, type: direct, args: leaf6-2#net31 }
@@ -5149,7 +5149,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net31 }
    - { name: net16, type: direct, args: leaf6-16#net31 }
  - name: tor6-32
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net32 }
    - { name: net2, type: direct, args: leaf6-2#net32 }
@@ -5168,7 +5168,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net32 }
    - { name: net16, type: direct, args: leaf6-16#net32 }
  - name: tor6-33
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net33 }
    - { name: net2, type: direct, args: leaf6-2#net33 }
@@ -5187,7 +5187,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net33 }
    - { name: net16, type: direct, args: leaf6-16#net33 }
  - name: tor6-34
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net34 }
    - { name: net2, type: direct, args: leaf6-2#net34 }
@@ -5206,7 +5206,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net34 }
    - { name: net16, type: direct, args: leaf6-16#net34 }
  - name: tor6-35
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net35 }
    - { name: net2, type: direct, args: leaf6-2#net35 }
@@ -5225,7 +5225,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net35 }
    - { name: net16, type: direct, args: leaf6-16#net35 }
  - name: tor6-36
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net36 }
    - { name: net2, type: direct, args: leaf6-2#net36 }
@@ -5244,7 +5244,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net36 }
    - { name: net16, type: direct, args: leaf6-16#net36 }
  - name: tor6-37
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net37 }
    - { name: net2, type: direct, args: leaf6-2#net37 }
@@ -5263,7 +5263,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net37 }
    - { name: net16, type: direct, args: leaf6-16#net37 }
  - name: tor6-38
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net38 }
    - { name: net2, type: direct, args: leaf6-2#net38 }
@@ -5282,7 +5282,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net38 }
    - { name: net16, type: direct, args: leaf6-16#net38 }
  - name: tor6-39
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net39 }
    - { name: net2, type: direct, args: leaf6-2#net39 }
@@ -5301,7 +5301,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net39 }
    - { name: net16, type: direct, args: leaf6-16#net39 }
  - name: tor6-40
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net40 }
    - { name: net2, type: direct, args: leaf6-2#net40 }
@@ -5320,7 +5320,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net40 }
    - { name: net16, type: direct, args: leaf6-16#net40 }
  - name: tor6-41
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net41 }
    - { name: net2, type: direct, args: leaf6-2#net41 }
@@ -5339,7 +5339,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net41 }
    - { name: net16, type: direct, args: leaf6-16#net41 }
  - name: tor6-42
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net42 }
    - { name: net2, type: direct, args: leaf6-2#net42 }
@@ -5358,7 +5358,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net42 }
    - { name: net16, type: direct, args: leaf6-16#net42 }
  - name: tor6-43
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net43 }
    - { name: net2, type: direct, args: leaf6-2#net43 }
@@ -5377,7 +5377,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net43 }
    - { name: net16, type: direct, args: leaf6-16#net43 }
  - name: tor6-44
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net44 }
    - { name: net2, type: direct, args: leaf6-2#net44 }
@@ -5396,7 +5396,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net44 }
    - { name: net16, type: direct, args: leaf6-16#net44 }
  - name: tor6-45
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net45 }
    - { name: net2, type: direct, args: leaf6-2#net45 }
@@ -5415,7 +5415,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net45 }
    - { name: net16, type: direct, args: leaf6-16#net45 }
  - name: tor6-46
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net46 }
    - { name: net2, type: direct, args: leaf6-2#net46 }
@@ -5434,7 +5434,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net46 }
    - { name: net16, type: direct, args: leaf6-16#net46 }
  - name: tor6-47
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net47 }
    - { name: net2, type: direct, args: leaf6-2#net47 }
@@ -5453,7 +5453,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net47 }
    - { name: net16, type: direct, args: leaf6-16#net47 }
  - name: tor6-48
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf6-1#net48 }
    - { name: net2, type: direct, args: leaf6-2#net48 }
@@ -5472,7 +5472,7 @@ nodes:
    - { name: net15, type: direct, args: leaf6-15#net48 }
    - { name: net16, type: direct, args: leaf6-16#net48 }
  - name: tor7-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net1 }
    - { name: net2, type: direct, args: leaf7-2#net1 }
@@ -5491,7 +5491,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net1 }
    - { name: net16, type: direct, args: leaf7-16#net1 }
  - name: tor7-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net2 }
    - { name: net2, type: direct, args: leaf7-2#net2 }
@@ -5510,7 +5510,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net2 }
    - { name: net16, type: direct, args: leaf7-16#net2 }
  - name: tor7-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net3 }
    - { name: net2, type: direct, args: leaf7-2#net3 }
@@ -5529,7 +5529,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net3 }
    - { name: net16, type: direct, args: leaf7-16#net3 }
  - name: tor7-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net4 }
    - { name: net2, type: direct, args: leaf7-2#net4 }
@@ -5548,7 +5548,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net4 }
    - { name: net16, type: direct, args: leaf7-16#net4 }
  - name: tor7-5
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net5 }
    - { name: net2, type: direct, args: leaf7-2#net5 }
@@ -5567,7 +5567,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net5 }
    - { name: net16, type: direct, args: leaf7-16#net5 }
  - name: tor7-6
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net6 }
    - { name: net2, type: direct, args: leaf7-2#net6 }
@@ -5586,7 +5586,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net6 }
    - { name: net16, type: direct, args: leaf7-16#net6 }
  - name: tor7-7
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net7 }
    - { name: net2, type: direct, args: leaf7-2#net7 }
@@ -5605,7 +5605,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net7 }
    - { name: net16, type: direct, args: leaf7-16#net7 }
  - name: tor7-8
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net8 }
    - { name: net2, type: direct, args: leaf7-2#net8 }
@@ -5624,7 +5624,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net8 }
    - { name: net16, type: direct, args: leaf7-16#net8 }
  - name: tor7-9
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net9 }
    - { name: net2, type: direct, args: leaf7-2#net9 }
@@ -5643,7 +5643,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net9 }
    - { name: net16, type: direct, args: leaf7-16#net9 }
  - name: tor7-10
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net10 }
    - { name: net2, type: direct, args: leaf7-2#net10 }
@@ -5662,7 +5662,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net10 }
    - { name: net16, type: direct, args: leaf7-16#net10 }
  - name: tor7-11
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net11 }
    - { name: net2, type: direct, args: leaf7-2#net11 }
@@ -5681,7 +5681,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net11 }
    - { name: net16, type: direct, args: leaf7-16#net11 }
  - name: tor7-12
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net12 }
    - { name: net2, type: direct, args: leaf7-2#net12 }
@@ -5700,7 +5700,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net12 }
    - { name: net16, type: direct, args: leaf7-16#net12 }
  - name: tor7-13
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net13 }
    - { name: net2, type: direct, args: leaf7-2#net13 }
@@ -5719,7 +5719,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net13 }
    - { name: net16, type: direct, args: leaf7-16#net13 }
  - name: tor7-14
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net14 }
    - { name: net2, type: direct, args: leaf7-2#net14 }
@@ -5738,7 +5738,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net14 }
    - { name: net16, type: direct, args: leaf7-16#net14 }
  - name: tor7-15
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net15 }
    - { name: net2, type: direct, args: leaf7-2#net15 }
@@ -5757,7 +5757,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net15 }
    - { name: net16, type: direct, args: leaf7-16#net15 }
  - name: tor7-16
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net16 }
    - { name: net2, type: direct, args: leaf7-2#net16 }
@@ -5776,7 +5776,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net16 }
    - { name: net16, type: direct, args: leaf7-16#net16 }
  - name: tor7-17
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net17 }
    - { name: net2, type: direct, args: leaf7-2#net17 }
@@ -5795,7 +5795,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net17 }
    - { name: net16, type: direct, args: leaf7-16#net17 }
  - name: tor7-18
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net18 }
    - { name: net2, type: direct, args: leaf7-2#net18 }
@@ -5814,7 +5814,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net18 }
    - { name: net16, type: direct, args: leaf7-16#net18 }
  - name: tor7-19
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net19 }
    - { name: net2, type: direct, args: leaf7-2#net19 }
@@ -5833,7 +5833,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net19 }
    - { name: net16, type: direct, args: leaf7-16#net19 }
  - name: tor7-20
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net20 }
    - { name: net2, type: direct, args: leaf7-2#net20 }
@@ -5852,7 +5852,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net20 }
    - { name: net16, type: direct, args: leaf7-16#net20 }
  - name: tor7-21
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net21 }
    - { name: net2, type: direct, args: leaf7-2#net21 }
@@ -5871,7 +5871,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net21 }
    - { name: net16, type: direct, args: leaf7-16#net21 }
  - name: tor7-22
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net22 }
    - { name: net2, type: direct, args: leaf7-2#net22 }
@@ -5890,7 +5890,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net22 }
    - { name: net16, type: direct, args: leaf7-16#net22 }
  - name: tor7-23
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net23 }
    - { name: net2, type: direct, args: leaf7-2#net23 }
@@ -5909,7 +5909,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net23 }
    - { name: net16, type: direct, args: leaf7-16#net23 }
  - name: tor7-24
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net24 }
    - { name: net2, type: direct, args: leaf7-2#net24 }
@@ -5928,7 +5928,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net24 }
    - { name: net16, type: direct, args: leaf7-16#net24 }
  - name: tor7-25
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net25 }
    - { name: net2, type: direct, args: leaf7-2#net25 }
@@ -5947,7 +5947,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net25 }
    - { name: net16, type: direct, args: leaf7-16#net25 }
  - name: tor7-26
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net26 }
    - { name: net2, type: direct, args: leaf7-2#net26 }
@@ -5966,7 +5966,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net26 }
    - { name: net16, type: direct, args: leaf7-16#net26 }
  - name: tor7-27
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net27 }
    - { name: net2, type: direct, args: leaf7-2#net27 }
@@ -5985,7 +5985,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net27 }
    - { name: net16, type: direct, args: leaf7-16#net27 }
  - name: tor7-28
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net28 }
    - { name: net2, type: direct, args: leaf7-2#net28 }
@@ -6004,7 +6004,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net28 }
    - { name: net16, type: direct, args: leaf7-16#net28 }
  - name: tor7-29
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net29 }
    - { name: net2, type: direct, args: leaf7-2#net29 }
@@ -6023,7 +6023,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net29 }
    - { name: net16, type: direct, args: leaf7-16#net29 }
  - name: tor7-30
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net30 }
    - { name: net2, type: direct, args: leaf7-2#net30 }
@@ -6042,7 +6042,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net30 }
    - { name: net16, type: direct, args: leaf7-16#net30 }
  - name: tor7-31
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net31 }
    - { name: net2, type: direct, args: leaf7-2#net31 }
@@ -6061,7 +6061,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net31 }
    - { name: net16, type: direct, args: leaf7-16#net31 }
  - name: tor7-32
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net32 }
    - { name: net2, type: direct, args: leaf7-2#net32 }
@@ -6080,7 +6080,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net32 }
    - { name: net16, type: direct, args: leaf7-16#net32 }
  - name: tor7-33
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net33 }
    - { name: net2, type: direct, args: leaf7-2#net33 }
@@ -6099,7 +6099,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net33 }
    - { name: net16, type: direct, args: leaf7-16#net33 }
  - name: tor7-34
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net34 }
    - { name: net2, type: direct, args: leaf7-2#net34 }
@@ -6118,7 +6118,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net34 }
    - { name: net16, type: direct, args: leaf7-16#net34 }
  - name: tor7-35
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net35 }
    - { name: net2, type: direct, args: leaf7-2#net35 }
@@ -6137,7 +6137,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net35 }
    - { name: net16, type: direct, args: leaf7-16#net35 }
  - name: tor7-36
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net36 }
    - { name: net2, type: direct, args: leaf7-2#net36 }
@@ -6156,7 +6156,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net36 }
    - { name: net16, type: direct, args: leaf7-16#net36 }
  - name: tor7-37
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net37 }
    - { name: net2, type: direct, args: leaf7-2#net37 }
@@ -6175,7 +6175,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net37 }
    - { name: net16, type: direct, args: leaf7-16#net37 }
  - name: tor7-38
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net38 }
    - { name: net2, type: direct, args: leaf7-2#net38 }
@@ -6194,7 +6194,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net38 }
    - { name: net16, type: direct, args: leaf7-16#net38 }
  - name: tor7-39
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net39 }
    - { name: net2, type: direct, args: leaf7-2#net39 }
@@ -6213,7 +6213,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net39 }
    - { name: net16, type: direct, args: leaf7-16#net39 }
  - name: tor7-40
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net40 }
    - { name: net2, type: direct, args: leaf7-2#net40 }
@@ -6232,7 +6232,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net40 }
    - { name: net16, type: direct, args: leaf7-16#net40 }
  - name: tor7-41
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net41 }
    - { name: net2, type: direct, args: leaf7-2#net41 }
@@ -6251,7 +6251,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net41 }
    - { name: net16, type: direct, args: leaf7-16#net41 }
  - name: tor7-42
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net42 }
    - { name: net2, type: direct, args: leaf7-2#net42 }
@@ -6270,7 +6270,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net42 }
    - { name: net16, type: direct, args: leaf7-16#net42 }
  - name: tor7-43
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net43 }
    - { name: net2, type: direct, args: leaf7-2#net43 }
@@ -6289,7 +6289,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net43 }
    - { name: net16, type: direct, args: leaf7-16#net43 }
  - name: tor7-44
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net44 }
    - { name: net2, type: direct, args: leaf7-2#net44 }
@@ -6308,7 +6308,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net44 }
    - { name: net16, type: direct, args: leaf7-16#net44 }
  - name: tor7-45
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net45 }
    - { name: net2, type: direct, args: leaf7-2#net45 }
@@ -6327,7 +6327,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net45 }
    - { name: net16, type: direct, args: leaf7-16#net45 }
  - name: tor7-46
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net46 }
    - { name: net2, type: direct, args: leaf7-2#net46 }
@@ -6346,7 +6346,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net46 }
    - { name: net16, type: direct, args: leaf7-16#net46 }
  - name: tor7-47
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net47 }
    - { name: net2, type: direct, args: leaf7-2#net47 }
@@ -6365,7 +6365,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net47 }
    - { name: net16, type: direct, args: leaf7-16#net47 }
  - name: tor7-48
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf7-1#net48 }
    - { name: net2, type: direct, args: leaf7-2#net48 }
@@ -6384,7 +6384,7 @@ nodes:
    - { name: net15, type: direct, args: leaf7-15#net48 }
    - { name: net16, type: direct, args: leaf7-16#net48 }
  - name: leaf1-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net1 }
    - { name: net2, type: direct, args: tor1-2#net1 }
@@ -6439,7 +6439,7 @@ nodes:
    - { name: net51, type: direct, args: spine1-3#net1 }
    - { name: net52, type: direct, args: spine1-4#net1 }
  - name: leaf1-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net2 }
    - { name: net2, type: direct, args: tor1-2#net2 }
@@ -6494,7 +6494,7 @@ nodes:
    - { name: net51, type: direct, args: spine2-3#net1 }
    - { name: net52, type: direct, args: spine2-4#net1 }
  - name: leaf1-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net3 }
    - { name: net2, type: direct, args: tor1-2#net3 }
@@ -6549,7 +6549,7 @@ nodes:
    - { name: net51, type: direct, args: spine3-3#net1 }
    - { name: net52, type: direct, args: spine3-4#net1 }
  - name: leaf1-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net4 }
    - { name: net2, type: direct, args: tor1-2#net4 }
@@ -6604,7 +6604,7 @@ nodes:
    - { name: net51, type: direct, args: spine4-3#net1 }
    - { name: net52, type: direct, args: spine4-4#net1 }
  - name: leaf1-5
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net5 }
    - { name: net2, type: direct, args: tor1-2#net5 }
@@ -6659,7 +6659,7 @@ nodes:
    - { name: net51, type: direct, args: spine5-3#net1 }
    - { name: net52, type: direct, args: spine5-4#net1 }
  - name: leaf1-6
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net6 }
    - { name: net2, type: direct, args: tor1-2#net6 }
@@ -6714,7 +6714,7 @@ nodes:
    - { name: net51, type: direct, args: spine6-3#net1 }
    - { name: net52, type: direct, args: spine6-4#net1 }
  - name: leaf1-7
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net7 }
    - { name: net2, type: direct, args: tor1-2#net7 }
@@ -6769,7 +6769,7 @@ nodes:
    - { name: net51, type: direct, args: spine7-3#net1 }
    - { name: net52, type: direct, args: spine7-4#net1 }
  - name: leaf1-8
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net8 }
    - { name: net2, type: direct, args: tor1-2#net8 }
@@ -6824,7 +6824,7 @@ nodes:
    - { name: net51, type: direct, args: spine8-3#net1 }
    - { name: net52, type: direct, args: spine8-4#net1 }
  - name: leaf1-9
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net9 }
    - { name: net2, type: direct, args: tor1-2#net9 }
@@ -6879,7 +6879,7 @@ nodes:
    - { name: net51, type: direct, args: spine9-3#net1 }
    - { name: net52, type: direct, args: spine9-4#net1 }
  - name: leaf1-10
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net10 }
    - { name: net2, type: direct, args: tor1-2#net10 }
@@ -6934,7 +6934,7 @@ nodes:
    - { name: net51, type: direct, args: spine10-3#net1 }
    - { name: net52, type: direct, args: spine10-4#net1 }
  - name: leaf1-11
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net11 }
    - { name: net2, type: direct, args: tor1-2#net11 }
@@ -6989,7 +6989,7 @@ nodes:
    - { name: net51, type: direct, args: spine11-3#net1 }
    - { name: net52, type: direct, args: spine11-4#net1 }
  - name: leaf1-12
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net12 }
    - { name: net2, type: direct, args: tor1-2#net12 }
@@ -7044,7 +7044,7 @@ nodes:
    - { name: net51, type: direct, args: spine12-3#net1 }
    - { name: net52, type: direct, args: spine12-4#net1 }
  - name: leaf1-13
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net13 }
    - { name: net2, type: direct, args: tor1-2#net13 }
@@ -7099,7 +7099,7 @@ nodes:
    - { name: net51, type: direct, args: spine13-3#net1 }
    - { name: net52, type: direct, args: spine13-4#net1 }
  - name: leaf1-14
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net14 }
    - { name: net2, type: direct, args: tor1-2#net14 }
@@ -7154,7 +7154,7 @@ nodes:
    - { name: net51, type: direct, args: spine14-3#net1 }
    - { name: net52, type: direct, args: spine14-4#net1 }
  - name: leaf1-15
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net15 }
    - { name: net2, type: direct, args: tor1-2#net15 }
@@ -7209,7 +7209,7 @@ nodes:
    - { name: net51, type: direct, args: spine15-3#net1 }
    - { name: net52, type: direct, args: spine15-4#net1 }
  - name: leaf1-16
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor1-1#net16 }
    - { name: net2, type: direct, args: tor1-2#net16 }
@@ -7264,7 +7264,7 @@ nodes:
    - { name: net51, type: direct, args: spine16-3#net1 }
    - { name: net52, type: direct, args: spine16-4#net1 }
  - name: leaf2-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net1 }
    - { name: net2, type: direct, args: tor2-2#net1 }
@@ -7319,7 +7319,7 @@ nodes:
    - { name: net51, type: direct, args: spine1-3#net2 }
    - { name: net52, type: direct, args: spine1-4#net2 }
  - name: leaf2-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net2 }
    - { name: net2, type: direct, args: tor2-2#net2 }
@@ -7374,7 +7374,7 @@ nodes:
    - { name: net51, type: direct, args: spine2-3#net2 }
    - { name: net52, type: direct, args: spine2-4#net2 }
  - name: leaf2-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net3 }
    - { name: net2, type: direct, args: tor2-2#net3 }
@@ -7429,7 +7429,7 @@ nodes:
    - { name: net51, type: direct, args: spine3-3#net2 }
    - { name: net52, type: direct, args: spine3-4#net2 }
  - name: leaf2-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net4 }
    - { name: net2, type: direct, args: tor2-2#net4 }
@@ -7484,7 +7484,7 @@ nodes:
    - { name: net51, type: direct, args: spine4-3#net2 }
    - { name: net52, type: direct, args: spine4-4#net2 }
  - name: leaf2-5
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net5 }
    - { name: net2, type: direct, args: tor2-2#net5 }
@@ -7539,7 +7539,7 @@ nodes:
    - { name: net51, type: direct, args: spine5-3#net2 }
    - { name: net52, type: direct, args: spine5-4#net2 }
  - name: leaf2-6
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net6 }
    - { name: net2, type: direct, args: tor2-2#net6 }
@@ -7594,7 +7594,7 @@ nodes:
    - { name: net51, type: direct, args: spine6-3#net2 }
    - { name: net52, type: direct, args: spine6-4#net2 }
  - name: leaf2-7
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net7 }
    - { name: net2, type: direct, args: tor2-2#net7 }
@@ -7649,7 +7649,7 @@ nodes:
    - { name: net51, type: direct, args: spine7-3#net2 }
    - { name: net52, type: direct, args: spine7-4#net2 }
  - name: leaf2-8
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net8 }
    - { name: net2, type: direct, args: tor2-2#net8 }
@@ -7704,7 +7704,7 @@ nodes:
    - { name: net51, type: direct, args: spine8-3#net2 }
    - { name: net52, type: direct, args: spine8-4#net2 }
  - name: leaf2-9
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net9 }
    - { name: net2, type: direct, args: tor2-2#net9 }
@@ -7759,7 +7759,7 @@ nodes:
    - { name: net51, type: direct, args: spine9-3#net2 }
    - { name: net52, type: direct, args: spine9-4#net2 }
  - name: leaf2-10
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net10 }
    - { name: net2, type: direct, args: tor2-2#net10 }
@@ -7814,7 +7814,7 @@ nodes:
    - { name: net51, type: direct, args: spine10-3#net2 }
    - { name: net52, type: direct, args: spine10-4#net2 }
  - name: leaf2-11
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net11 }
    - { name: net2, type: direct, args: tor2-2#net11 }
@@ -7869,7 +7869,7 @@ nodes:
    - { name: net51, type: direct, args: spine11-3#net2 }
    - { name: net52, type: direct, args: spine11-4#net2 }
  - name: leaf2-12
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net12 }
    - { name: net2, type: direct, args: tor2-2#net12 }
@@ -7924,7 +7924,7 @@ nodes:
    - { name: net51, type: direct, args: spine12-3#net2 }
    - { name: net52, type: direct, args: spine12-4#net2 }
  - name: leaf2-13
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net13 }
    - { name: net2, type: direct, args: tor2-2#net13 }
@@ -7979,7 +7979,7 @@ nodes:
    - { name: net51, type: direct, args: spine13-3#net2 }
    - { name: net52, type: direct, args: spine13-4#net2 }
  - name: leaf2-14
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net14 }
    - { name: net2, type: direct, args: tor2-2#net14 }
@@ -8034,7 +8034,7 @@ nodes:
    - { name: net51, type: direct, args: spine14-3#net2 }
    - { name: net52, type: direct, args: spine14-4#net2 }
  - name: leaf2-15
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net15 }
    - { name: net2, type: direct, args: tor2-2#net15 }
@@ -8089,7 +8089,7 @@ nodes:
    - { name: net51, type: direct, args: spine15-3#net2 }
    - { name: net52, type: direct, args: spine15-4#net2 }
  - name: leaf2-16
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor2-1#net16 }
    - { name: net2, type: direct, args: tor2-2#net16 }
@@ -8144,7 +8144,7 @@ nodes:
    - { name: net51, type: direct, args: spine16-3#net2 }
    - { name: net52, type: direct, args: spine16-4#net2 }
  - name: leaf3-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net1 }
    - { name: net2, type: direct, args: tor3-2#net1 }
@@ -8199,7 +8199,7 @@ nodes:
    - { name: net51, type: direct, args: spine1-3#net3 }
    - { name: net52, type: direct, args: spine1-4#net3 }
  - name: leaf3-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net2 }
    - { name: net2, type: direct, args: tor3-2#net2 }
@@ -8254,7 +8254,7 @@ nodes:
    - { name: net51, type: direct, args: spine2-3#net3 }
    - { name: net52, type: direct, args: spine2-4#net3 }
  - name: leaf3-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net3 }
    - { name: net2, type: direct, args: tor3-2#net3 }
@@ -8309,7 +8309,7 @@ nodes:
    - { name: net51, type: direct, args: spine3-3#net3 }
    - { name: net52, type: direct, args: spine3-4#net3 }
  - name: leaf3-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net4 }
    - { name: net2, type: direct, args: tor3-2#net4 }
@@ -8364,7 +8364,7 @@ nodes:
    - { name: net51, type: direct, args: spine4-3#net3 }
    - { name: net52, type: direct, args: spine4-4#net3 }
  - name: leaf3-5
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net5 }
    - { name: net2, type: direct, args: tor3-2#net5 }
@@ -8419,7 +8419,7 @@ nodes:
    - { name: net51, type: direct, args: spine5-3#net3 }
    - { name: net52, type: direct, args: spine5-4#net3 }
  - name: leaf3-6
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net6 }
    - { name: net2, type: direct, args: tor3-2#net6 }
@@ -8474,7 +8474,7 @@ nodes:
    - { name: net51, type: direct, args: spine6-3#net3 }
    - { name: net52, type: direct, args: spine6-4#net3 }
  - name: leaf3-7
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net7 }
    - { name: net2, type: direct, args: tor3-2#net7 }
@@ -8529,7 +8529,7 @@ nodes:
    - { name: net51, type: direct, args: spine7-3#net3 }
    - { name: net52, type: direct, args: spine7-4#net3 }
  - name: leaf3-8
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net8 }
    - { name: net2, type: direct, args: tor3-2#net8 }
@@ -8584,7 +8584,7 @@ nodes:
    - { name: net51, type: direct, args: spine8-3#net3 }
    - { name: net52, type: direct, args: spine8-4#net3 }
  - name: leaf3-9
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net9 }
    - { name: net2, type: direct, args: tor3-2#net9 }
@@ -8639,7 +8639,7 @@ nodes:
    - { name: net51, type: direct, args: spine9-3#net3 }
    - { name: net52, type: direct, args: spine9-4#net3 }
  - name: leaf3-10
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net10 }
    - { name: net2, type: direct, args: tor3-2#net10 }
@@ -8694,7 +8694,7 @@ nodes:
    - { name: net51, type: direct, args: spine10-3#net3 }
    - { name: net52, type: direct, args: spine10-4#net3 }
  - name: leaf3-11
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net11 }
    - { name: net2, type: direct, args: tor3-2#net11 }
@@ -8749,7 +8749,7 @@ nodes:
    - { name: net51, type: direct, args: spine11-3#net3 }
    - { name: net52, type: direct, args: spine11-4#net3 }
  - name: leaf3-12
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net12 }
    - { name: net2, type: direct, args: tor3-2#net12 }
@@ -8804,7 +8804,7 @@ nodes:
    - { name: net51, type: direct, args: spine12-3#net3 }
    - { name: net52, type: direct, args: spine12-4#net3 }
  - name: leaf3-13
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net13 }
    - { name: net2, type: direct, args: tor3-2#net13 }
@@ -8859,7 +8859,7 @@ nodes:
    - { name: net51, type: direct, args: spine13-3#net3 }
    - { name: net52, type: direct, args: spine13-4#net3 }
  - name: leaf3-14
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net14 }
    - { name: net2, type: direct, args: tor3-2#net14 }
@@ -8914,7 +8914,7 @@ nodes:
    - { name: net51, type: direct, args: spine14-3#net3 }
    - { name: net52, type: direct, args: spine14-4#net3 }
  - name: leaf3-15
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net15 }
    - { name: net2, type: direct, args: tor3-2#net15 }
@@ -8969,7 +8969,7 @@ nodes:
    - { name: net51, type: direct, args: spine15-3#net3 }
    - { name: net52, type: direct, args: spine15-4#net3 }
  - name: leaf3-16
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor3-1#net16 }
    - { name: net2, type: direct, args: tor3-2#net16 }
@@ -9024,7 +9024,7 @@ nodes:
    - { name: net51, type: direct, args: spine16-3#net3 }
    - { name: net52, type: direct, args: spine16-4#net3 }
  - name: leaf4-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net1 }
    - { name: net2, type: direct, args: tor4-2#net1 }
@@ -9079,7 +9079,7 @@ nodes:
    - { name: net51, type: direct, args: spine1-3#net4 }
    - { name: net52, type: direct, args: spine1-4#net4 }
  - name: leaf4-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net2 }
    - { name: net2, type: direct, args: tor4-2#net2 }
@@ -9134,7 +9134,7 @@ nodes:
    - { name: net51, type: direct, args: spine2-3#net4 }
    - { name: net52, type: direct, args: spine2-4#net4 }
  - name: leaf4-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net3 }
    - { name: net2, type: direct, args: tor4-2#net3 }
@@ -9189,7 +9189,7 @@ nodes:
    - { name: net51, type: direct, args: spine3-3#net4 }
    - { name: net52, type: direct, args: spine3-4#net4 }
  - name: leaf4-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net4 }
    - { name: net2, type: direct, args: tor4-2#net4 }
@@ -9244,7 +9244,7 @@ nodes:
    - { name: net51, type: direct, args: spine4-3#net4 }
    - { name: net52, type: direct, args: spine4-4#net4 }
  - name: leaf4-5
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net5 }
    - { name: net2, type: direct, args: tor4-2#net5 }
@@ -9299,7 +9299,7 @@ nodes:
    - { name: net51, type: direct, args: spine5-3#net4 }
    - { name: net52, type: direct, args: spine5-4#net4 }
  - name: leaf4-6
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net6 }
    - { name: net2, type: direct, args: tor4-2#net6 }
@@ -9354,7 +9354,7 @@ nodes:
    - { name: net51, type: direct, args: spine6-3#net4 }
    - { name: net52, type: direct, args: spine6-4#net4 }
  - name: leaf4-7
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net7 }
    - { name: net2, type: direct, args: tor4-2#net7 }
@@ -9409,7 +9409,7 @@ nodes:
    - { name: net51, type: direct, args: spine7-3#net4 }
    - { name: net52, type: direct, args: spine7-4#net4 }
  - name: leaf4-8
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net8 }
    - { name: net2, type: direct, args: tor4-2#net8 }
@@ -9464,7 +9464,7 @@ nodes:
    - { name: net51, type: direct, args: spine8-3#net4 }
    - { name: net52, type: direct, args: spine8-4#net4 }
  - name: leaf4-9
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net9 }
    - { name: net2, type: direct, args: tor4-2#net9 }
@@ -9519,7 +9519,7 @@ nodes:
    - { name: net51, type: direct, args: spine9-3#net4 }
    - { name: net52, type: direct, args: spine9-4#net4 }
  - name: leaf4-10
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net10 }
    - { name: net2, type: direct, args: tor4-2#net10 }
@@ -9574,7 +9574,7 @@ nodes:
    - { name: net51, type: direct, args: spine10-3#net4 }
    - { name: net52, type: direct, args: spine10-4#net4 }
  - name: leaf4-11
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net11 }
    - { name: net2, type: direct, args: tor4-2#net11 }
@@ -9629,7 +9629,7 @@ nodes:
    - { name: net51, type: direct, args: spine11-3#net4 }
    - { name: net52, type: direct, args: spine11-4#net4 }
  - name: leaf4-12
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net12 }
    - { name: net2, type: direct, args: tor4-2#net12 }
@@ -9684,7 +9684,7 @@ nodes:
    - { name: net51, type: direct, args: spine12-3#net4 }
    - { name: net52, type: direct, args: spine12-4#net4 }
  - name: leaf4-13
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net13 }
    - { name: net2, type: direct, args: tor4-2#net13 }
@@ -9739,7 +9739,7 @@ nodes:
    - { name: net51, type: direct, args: spine13-3#net4 }
    - { name: net52, type: direct, args: spine13-4#net4 }
  - name: leaf4-14
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net14 }
    - { name: net2, type: direct, args: tor4-2#net14 }
@@ -9794,7 +9794,7 @@ nodes:
    - { name: net51, type: direct, args: spine14-3#net4 }
    - { name: net52, type: direct, args: spine14-4#net4 }
  - name: leaf4-15
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net15 }
    - { name: net2, type: direct, args: tor4-2#net15 }
@@ -9849,7 +9849,7 @@ nodes:
    - { name: net51, type: direct, args: spine15-3#net4 }
    - { name: net52, type: direct, args: spine15-4#net4 }
  - name: leaf4-16
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor4-1#net16 }
    - { name: net2, type: direct, args: tor4-2#net16 }
@@ -9904,7 +9904,7 @@ nodes:
    - { name: net51, type: direct, args: spine16-3#net4 }
    - { name: net52, type: direct, args: spine16-4#net4 }
  - name: leaf5-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net1 }
    - { name: net2, type: direct, args: tor5-2#net1 }
@@ -9959,7 +9959,7 @@ nodes:
    - { name: net51, type: direct, args: spine1-3#net5 }
    - { name: net52, type: direct, args: spine1-4#net5 }
  - name: leaf5-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net2 }
    - { name: net2, type: direct, args: tor5-2#net2 }
@@ -10014,7 +10014,7 @@ nodes:
    - { name: net51, type: direct, args: spine2-3#net5 }
    - { name: net52, type: direct, args: spine2-4#net5 }
  - name: leaf5-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net3 }
    - { name: net2, type: direct, args: tor5-2#net3 }
@@ -10069,7 +10069,7 @@ nodes:
    - { name: net51, type: direct, args: spine3-3#net5 }
    - { name: net52, type: direct, args: spine3-4#net5 }
  - name: leaf5-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net4 }
    - { name: net2, type: direct, args: tor5-2#net4 }
@@ -10124,7 +10124,7 @@ nodes:
    - { name: net51, type: direct, args: spine4-3#net5 }
    - { name: net52, type: direct, args: spine4-4#net5 }
  - name: leaf5-5
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net5 }
    - { name: net2, type: direct, args: tor5-2#net5 }
@@ -10179,7 +10179,7 @@ nodes:
    - { name: net51, type: direct, args: spine5-3#net5 }
    - { name: net52, type: direct, args: spine5-4#net5 }
  - name: leaf5-6
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net6 }
    - { name: net2, type: direct, args: tor5-2#net6 }
@@ -10234,7 +10234,7 @@ nodes:
    - { name: net51, type: direct, args: spine6-3#net5 }
    - { name: net52, type: direct, args: spine6-4#net5 }
  - name: leaf5-7
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net7 }
    - { name: net2, type: direct, args: tor5-2#net7 }
@@ -10289,7 +10289,7 @@ nodes:
    - { name: net51, type: direct, args: spine7-3#net5 }
    - { name: net52, type: direct, args: spine7-4#net5 }
  - name: leaf5-8
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net8 }
    - { name: net2, type: direct, args: tor5-2#net8 }
@@ -10344,7 +10344,7 @@ nodes:
    - { name: net51, type: direct, args: spine8-3#net5 }
    - { name: net52, type: direct, args: spine8-4#net5 }
  - name: leaf5-9
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net9 }
    - { name: net2, type: direct, args: tor5-2#net9 }
@@ -10399,7 +10399,7 @@ nodes:
    - { name: net51, type: direct, args: spine9-3#net5 }
    - { name: net52, type: direct, args: spine9-4#net5 }
  - name: leaf5-10
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net10 }
    - { name: net2, type: direct, args: tor5-2#net10 }
@@ -10454,7 +10454,7 @@ nodes:
    - { name: net51, type: direct, args: spine10-3#net5 }
    - { name: net52, type: direct, args: spine10-4#net5 }
  - name: leaf5-11
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net11 }
    - { name: net2, type: direct, args: tor5-2#net11 }
@@ -10509,7 +10509,7 @@ nodes:
    - { name: net51, type: direct, args: spine11-3#net5 }
    - { name: net52, type: direct, args: spine11-4#net5 }
  - name: leaf5-12
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net12 }
    - { name: net2, type: direct, args: tor5-2#net12 }
@@ -10564,7 +10564,7 @@ nodes:
    - { name: net51, type: direct, args: spine12-3#net5 }
    - { name: net52, type: direct, args: spine12-4#net5 }
  - name: leaf5-13
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net13 }
    - { name: net2, type: direct, args: tor5-2#net13 }
@@ -10619,7 +10619,7 @@ nodes:
    - { name: net51, type: direct, args: spine13-3#net5 }
    - { name: net52, type: direct, args: spine13-4#net5 }
  - name: leaf5-14
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net14 }
    - { name: net2, type: direct, args: tor5-2#net14 }
@@ -10674,7 +10674,7 @@ nodes:
    - { name: net51, type: direct, args: spine14-3#net5 }
    - { name: net52, type: direct, args: spine14-4#net5 }
  - name: leaf5-15
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net15 }
    - { name: net2, type: direct, args: tor5-2#net15 }
@@ -10729,7 +10729,7 @@ nodes:
    - { name: net51, type: direct, args: spine15-3#net5 }
    - { name: net52, type: direct, args: spine15-4#net5 }
  - name: leaf5-16
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor5-1#net16 }
    - { name: net2, type: direct, args: tor5-2#net16 }
@@ -10784,7 +10784,7 @@ nodes:
    - { name: net51, type: direct, args: spine16-3#net5 }
    - { name: net52, type: direct, args: spine16-4#net5 }
  - name: leaf6-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net1 }
    - { name: net2, type: direct, args: tor6-2#net1 }
@@ -10839,7 +10839,7 @@ nodes:
    - { name: net51, type: direct, args: spine1-3#net6 }
    - { name: net52, type: direct, args: spine1-4#net6 }
  - name: leaf6-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net2 }
    - { name: net2, type: direct, args: tor6-2#net2 }
@@ -10894,7 +10894,7 @@ nodes:
    - { name: net51, type: direct, args: spine2-3#net6 }
    - { name: net52, type: direct, args: spine2-4#net6 }
  - name: leaf6-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net3 }
    - { name: net2, type: direct, args: tor6-2#net3 }
@@ -10949,7 +10949,7 @@ nodes:
    - { name: net51, type: direct, args: spine3-3#net6 }
    - { name: net52, type: direct, args: spine3-4#net6 }
  - name: leaf6-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net4 }
    - { name: net2, type: direct, args: tor6-2#net4 }
@@ -11004,7 +11004,7 @@ nodes:
    - { name: net51, type: direct, args: spine4-3#net6 }
    - { name: net52, type: direct, args: spine4-4#net6 }
  - name: leaf6-5
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net5 }
    - { name: net2, type: direct, args: tor6-2#net5 }
@@ -11059,7 +11059,7 @@ nodes:
    - { name: net51, type: direct, args: spine5-3#net6 }
    - { name: net52, type: direct, args: spine5-4#net6 }
  - name: leaf6-6
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net6 }
    - { name: net2, type: direct, args: tor6-2#net6 }
@@ -11114,7 +11114,7 @@ nodes:
    - { name: net51, type: direct, args: spine6-3#net6 }
    - { name: net52, type: direct, args: spine6-4#net6 }
  - name: leaf6-7
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net7 }
    - { name: net2, type: direct, args: tor6-2#net7 }
@@ -11169,7 +11169,7 @@ nodes:
    - { name: net51, type: direct, args: spine7-3#net6 }
    - { name: net52, type: direct, args: spine7-4#net6 }
  - name: leaf6-8
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net8 }
    - { name: net2, type: direct, args: tor6-2#net8 }
@@ -11224,7 +11224,7 @@ nodes:
    - { name: net51, type: direct, args: spine8-3#net6 }
    - { name: net52, type: direct, args: spine8-4#net6 }
  - name: leaf6-9
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net9 }
    - { name: net2, type: direct, args: tor6-2#net9 }
@@ -11279,7 +11279,7 @@ nodes:
    - { name: net51, type: direct, args: spine9-3#net6 }
    - { name: net52, type: direct, args: spine9-4#net6 }
  - name: leaf6-10
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net10 }
    - { name: net2, type: direct, args: tor6-2#net10 }
@@ -11334,7 +11334,7 @@ nodes:
    - { name: net51, type: direct, args: spine10-3#net6 }
    - { name: net52, type: direct, args: spine10-4#net6 }
  - name: leaf6-11
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net11 }
    - { name: net2, type: direct, args: tor6-2#net11 }
@@ -11389,7 +11389,7 @@ nodes:
    - { name: net51, type: direct, args: spine11-3#net6 }
    - { name: net52, type: direct, args: spine11-4#net6 }
  - name: leaf6-12
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net12 }
    - { name: net2, type: direct, args: tor6-2#net12 }
@@ -11444,7 +11444,7 @@ nodes:
    - { name: net51, type: direct, args: spine12-3#net6 }
    - { name: net52, type: direct, args: spine12-4#net6 }
  - name: leaf6-13
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net13 }
    - { name: net2, type: direct, args: tor6-2#net13 }
@@ -11499,7 +11499,7 @@ nodes:
    - { name: net51, type: direct, args: spine13-3#net6 }
    - { name: net52, type: direct, args: spine13-4#net6 }
  - name: leaf6-14
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net14 }
    - { name: net2, type: direct, args: tor6-2#net14 }
@@ -11554,7 +11554,7 @@ nodes:
    - { name: net51, type: direct, args: spine14-3#net6 }
    - { name: net52, type: direct, args: spine14-4#net6 }
  - name: leaf6-15
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net15 }
    - { name: net2, type: direct, args: tor6-2#net15 }
@@ -11609,7 +11609,7 @@ nodes:
    - { name: net51, type: direct, args: spine15-3#net6 }
    - { name: net52, type: direct, args: spine15-4#net6 }
  - name: leaf6-16
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor6-1#net16 }
    - { name: net2, type: direct, args: tor6-2#net16 }
@@ -11664,7 +11664,7 @@ nodes:
    - { name: net51, type: direct, args: spine16-3#net6 }
    - { name: net52, type: direct, args: spine16-4#net6 }
  - name: leaf7-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net1 }
    - { name: net2, type: direct, args: tor7-2#net1 }
@@ -11719,7 +11719,7 @@ nodes:
    - { name: net51, type: direct, args: spine1-3#net7 }
    - { name: net52, type: direct, args: spine1-4#net7 }
  - name: leaf7-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net2 }
    - { name: net2, type: direct, args: tor7-2#net2 }
@@ -11774,7 +11774,7 @@ nodes:
    - { name: net51, type: direct, args: spine2-3#net7 }
    - { name: net52, type: direct, args: spine2-4#net7 }
  - name: leaf7-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net3 }
    - { name: net2, type: direct, args: tor7-2#net3 }
@@ -11829,7 +11829,7 @@ nodes:
    - { name: net51, type: direct, args: spine3-3#net7 }
    - { name: net52, type: direct, args: spine3-4#net7 }
  - name: leaf7-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net4 }
    - { name: net2, type: direct, args: tor7-2#net4 }
@@ -11884,7 +11884,7 @@ nodes:
    - { name: net51, type: direct, args: spine4-3#net7 }
    - { name: net52, type: direct, args: spine4-4#net7 }
  - name: leaf7-5
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net5 }
    - { name: net2, type: direct, args: tor7-2#net5 }
@@ -11939,7 +11939,7 @@ nodes:
    - { name: net51, type: direct, args: spine5-3#net7 }
    - { name: net52, type: direct, args: spine5-4#net7 }
  - name: leaf7-6
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net6 }
    - { name: net2, type: direct, args: tor7-2#net6 }
@@ -11994,7 +11994,7 @@ nodes:
    - { name: net51, type: direct, args: spine6-3#net7 }
    - { name: net52, type: direct, args: spine6-4#net7 }
  - name: leaf7-7
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net7 }
    - { name: net2, type: direct, args: tor7-2#net7 }
@@ -12049,7 +12049,7 @@ nodes:
    - { name: net51, type: direct, args: spine7-3#net7 }
    - { name: net52, type: direct, args: spine7-4#net7 }
  - name: leaf7-8
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net8 }
    - { name: net2, type: direct, args: tor7-2#net8 }
@@ -12104,7 +12104,7 @@ nodes:
    - { name: net51, type: direct, args: spine8-3#net7 }
    - { name: net52, type: direct, args: spine8-4#net7 }
  - name: leaf7-9
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net9 }
    - { name: net2, type: direct, args: tor7-2#net9 }
@@ -12159,7 +12159,7 @@ nodes:
    - { name: net51, type: direct, args: spine9-3#net7 }
    - { name: net52, type: direct, args: spine9-4#net7 }
  - name: leaf7-10
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net10 }
    - { name: net2, type: direct, args: tor7-2#net10 }
@@ -12214,7 +12214,7 @@ nodes:
    - { name: net51, type: direct, args: spine10-3#net7 }
    - { name: net52, type: direct, args: spine10-4#net7 }
  - name: leaf7-11
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net11 }
    - { name: net2, type: direct, args: tor7-2#net11 }
@@ -12269,7 +12269,7 @@ nodes:
    - { name: net51, type: direct, args: spine11-3#net7 }
    - { name: net52, type: direct, args: spine11-4#net7 }
  - name: leaf7-12
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net12 }
    - { name: net2, type: direct, args: tor7-2#net12 }
@@ -12324,7 +12324,7 @@ nodes:
    - { name: net51, type: direct, args: spine12-3#net7 }
    - { name: net52, type: direct, args: spine12-4#net7 }
  - name: leaf7-13
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net13 }
    - { name: net2, type: direct, args: tor7-2#net13 }
@@ -12379,7 +12379,7 @@ nodes:
    - { name: net51, type: direct, args: spine13-3#net7 }
    - { name: net52, type: direct, args: spine13-4#net7 }
  - name: leaf7-14
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net14 }
    - { name: net2, type: direct, args: tor7-2#net14 }
@@ -12434,7 +12434,7 @@ nodes:
    - { name: net51, type: direct, args: spine14-3#net7 }
    - { name: net52, type: direct, args: spine14-4#net7 }
  - name: leaf7-15
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net15 }
    - { name: net2, type: direct, args: tor7-2#net15 }
@@ -12489,7 +12489,7 @@ nodes:
    - { name: net51, type: direct, args: spine15-3#net7 }
    - { name: net52, type: direct, args: spine15-4#net7 }
  - name: leaf7-16
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: tor7-1#net16 }
    - { name: net2, type: direct, args: tor7-2#net16 }
@@ -12544,7 +12544,7 @@ nodes:
    - { name: net51, type: direct, args: spine16-3#net7 }
    - { name: net52, type: direct, args: spine16-4#net7 }
  - name: spine1-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net49 }
    - { name: net2, type: direct, args: leaf2-1#net49 }
@@ -12554,7 +12554,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-1#net49 }
    - { name: net7, type: direct, args: leaf7-1#net49 }
  - name: spine1-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net50 }
    - { name: net2, type: direct, args: leaf2-1#net50 }
@@ -12564,7 +12564,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-1#net50 }
    - { name: net7, type: direct, args: leaf7-1#net50 }
  - name: spine1-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net51 }
    - { name: net2, type: direct, args: leaf2-1#net51 }
@@ -12574,7 +12574,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-1#net51 }
    - { name: net7, type: direct, args: leaf7-1#net51 }
  - name: spine1-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-1#net52 }
    - { name: net2, type: direct, args: leaf2-1#net52 }
@@ -12584,7 +12584,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-1#net52 }
    - { name: net7, type: direct, args: leaf7-1#net52 }
  - name: spine2-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-2#net49 }
    - { name: net2, type: direct, args: leaf2-2#net49 }
@@ -12594,7 +12594,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-2#net49 }
    - { name: net7, type: direct, args: leaf7-2#net49 }
  - name: spine2-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-2#net50 }
    - { name: net2, type: direct, args: leaf2-2#net50 }
@@ -12604,7 +12604,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-2#net50 }
    - { name: net7, type: direct, args: leaf7-2#net50 }
  - name: spine2-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-2#net51 }
    - { name: net2, type: direct, args: leaf2-2#net51 }
@@ -12614,7 +12614,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-2#net51 }
    - { name: net7, type: direct, args: leaf7-2#net51 }
  - name: spine2-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-2#net52 }
    - { name: net2, type: direct, args: leaf2-2#net52 }
@@ -12624,7 +12624,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-2#net52 }
    - { name: net7, type: direct, args: leaf7-2#net52 }
  - name: spine3-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-3#net49 }
    - { name: net2, type: direct, args: leaf2-3#net49 }
@@ -12634,7 +12634,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-3#net49 }
    - { name: net7, type: direct, args: leaf7-3#net49 }
  - name: spine3-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-3#net50 }
    - { name: net2, type: direct, args: leaf2-3#net50 }
@@ -12644,7 +12644,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-3#net50 }
    - { name: net7, type: direct, args: leaf7-3#net50 }
  - name: spine3-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-3#net51 }
    - { name: net2, type: direct, args: leaf2-3#net51 }
@@ -12654,7 +12654,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-3#net51 }
    - { name: net7, type: direct, args: leaf7-3#net51 }
  - name: spine3-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-3#net52 }
    - { name: net2, type: direct, args: leaf2-3#net52 }
@@ -12664,7 +12664,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-3#net52 }
    - { name: net7, type: direct, args: leaf7-3#net52 }
  - name: spine4-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-4#net49 }
    - { name: net2, type: direct, args: leaf2-4#net49 }
@@ -12674,7 +12674,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-4#net49 }
    - { name: net7, type: direct, args: leaf7-4#net49 }
  - name: spine4-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-4#net50 }
    - { name: net2, type: direct, args: leaf2-4#net50 }
@@ -12684,7 +12684,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-4#net50 }
    - { name: net7, type: direct, args: leaf7-4#net50 }
  - name: spine4-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-4#net51 }
    - { name: net2, type: direct, args: leaf2-4#net51 }
@@ -12694,7 +12694,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-4#net51 }
    - { name: net7, type: direct, args: leaf7-4#net51 }
  - name: spine4-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-4#net52 }
    - { name: net2, type: direct, args: leaf2-4#net52 }
@@ -12704,7 +12704,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-4#net52 }
    - { name: net7, type: direct, args: leaf7-4#net52 }
  - name: spine5-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-5#net49 }
    - { name: net2, type: direct, args: leaf2-5#net49 }
@@ -12714,7 +12714,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-5#net49 }
    - { name: net7, type: direct, args: leaf7-5#net49 }
  - name: spine5-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-5#net50 }
    - { name: net2, type: direct, args: leaf2-5#net50 }
@@ -12724,7 +12724,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-5#net50 }
    - { name: net7, type: direct, args: leaf7-5#net50 }
  - name: spine5-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-5#net51 }
    - { name: net2, type: direct, args: leaf2-5#net51 }
@@ -12734,7 +12734,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-5#net51 }
    - { name: net7, type: direct, args: leaf7-5#net51 }
  - name: spine5-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-5#net52 }
    - { name: net2, type: direct, args: leaf2-5#net52 }
@@ -12744,7 +12744,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-5#net52 }
    - { name: net7, type: direct, args: leaf7-5#net52 }
  - name: spine6-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-6#net49 }
    - { name: net2, type: direct, args: leaf2-6#net49 }
@@ -12754,7 +12754,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-6#net49 }
    - { name: net7, type: direct, args: leaf7-6#net49 }
  - name: spine6-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-6#net50 }
    - { name: net2, type: direct, args: leaf2-6#net50 }
@@ -12764,7 +12764,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-6#net50 }
    - { name: net7, type: direct, args: leaf7-6#net50 }
  - name: spine6-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-6#net51 }
    - { name: net2, type: direct, args: leaf2-6#net51 }
@@ -12774,7 +12774,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-6#net51 }
    - { name: net7, type: direct, args: leaf7-6#net51 }
  - name: spine6-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-6#net52 }
    - { name: net2, type: direct, args: leaf2-6#net52 }
@@ -12784,7 +12784,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-6#net52 }
    - { name: net7, type: direct, args: leaf7-6#net52 }
  - name: spine7-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-7#net49 }
    - { name: net2, type: direct, args: leaf2-7#net49 }
@@ -12794,7 +12794,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-7#net49 }
    - { name: net7, type: direct, args: leaf7-7#net49 }
  - name: spine7-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-7#net50 }
    - { name: net2, type: direct, args: leaf2-7#net50 }
@@ -12804,7 +12804,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-7#net50 }
    - { name: net7, type: direct, args: leaf7-7#net50 }
  - name: spine7-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-7#net51 }
    - { name: net2, type: direct, args: leaf2-7#net51 }
@@ -12814,7 +12814,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-7#net51 }
    - { name: net7, type: direct, args: leaf7-7#net51 }
  - name: spine7-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-7#net52 }
    - { name: net2, type: direct, args: leaf2-7#net52 }
@@ -12824,7 +12824,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-7#net52 }
    - { name: net7, type: direct, args: leaf7-7#net52 }
  - name: spine8-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-8#net49 }
    - { name: net2, type: direct, args: leaf2-8#net49 }
@@ -12834,7 +12834,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-8#net49 }
    - { name: net7, type: direct, args: leaf7-8#net49 }
  - name: spine8-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-8#net50 }
    - { name: net2, type: direct, args: leaf2-8#net50 }
@@ -12844,7 +12844,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-8#net50 }
    - { name: net7, type: direct, args: leaf7-8#net50 }
  - name: spine8-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-8#net51 }
    - { name: net2, type: direct, args: leaf2-8#net51 }
@@ -12854,7 +12854,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-8#net51 }
    - { name: net7, type: direct, args: leaf7-8#net51 }
  - name: spine8-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-8#net52 }
    - { name: net2, type: direct, args: leaf2-8#net52 }
@@ -12864,7 +12864,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-8#net52 }
    - { name: net7, type: direct, args: leaf7-8#net52 }
  - name: spine9-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-9#net49 }
    - { name: net2, type: direct, args: leaf2-9#net49 }
@@ -12874,7 +12874,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-9#net49 }
    - { name: net7, type: direct, args: leaf7-9#net49 }
  - name: spine9-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-9#net50 }
    - { name: net2, type: direct, args: leaf2-9#net50 }
@@ -12884,7 +12884,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-9#net50 }
    - { name: net7, type: direct, args: leaf7-9#net50 }
  - name: spine9-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-9#net51 }
    - { name: net2, type: direct, args: leaf2-9#net51 }
@@ -12894,7 +12894,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-9#net51 }
    - { name: net7, type: direct, args: leaf7-9#net51 }
  - name: spine9-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-9#net52 }
    - { name: net2, type: direct, args: leaf2-9#net52 }
@@ -12904,7 +12904,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-9#net52 }
    - { name: net7, type: direct, args: leaf7-9#net52 }
  - name: spine10-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-10#net49 }
    - { name: net2, type: direct, args: leaf2-10#net49 }
@@ -12914,7 +12914,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-10#net49 }
    - { name: net7, type: direct, args: leaf7-10#net49 }
  - name: spine10-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-10#net50 }
    - { name: net2, type: direct, args: leaf2-10#net50 }
@@ -12924,7 +12924,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-10#net50 }
    - { name: net7, type: direct, args: leaf7-10#net50 }
  - name: spine10-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-10#net51 }
    - { name: net2, type: direct, args: leaf2-10#net51 }
@@ -12934,7 +12934,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-10#net51 }
    - { name: net7, type: direct, args: leaf7-10#net51 }
  - name: spine10-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-10#net52 }
    - { name: net2, type: direct, args: leaf2-10#net52 }
@@ -12944,7 +12944,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-10#net52 }
    - { name: net7, type: direct, args: leaf7-10#net52 }
  - name: spine11-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-11#net49 }
    - { name: net2, type: direct, args: leaf2-11#net49 }
@@ -12954,7 +12954,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-11#net49 }
    - { name: net7, type: direct, args: leaf7-11#net49 }
  - name: spine11-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-11#net50 }
    - { name: net2, type: direct, args: leaf2-11#net50 }
@@ -12964,7 +12964,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-11#net50 }
    - { name: net7, type: direct, args: leaf7-11#net50 }
  - name: spine11-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-11#net51 }
    - { name: net2, type: direct, args: leaf2-11#net51 }
@@ -12974,7 +12974,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-11#net51 }
    - { name: net7, type: direct, args: leaf7-11#net51 }
  - name: spine11-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-11#net52 }
    - { name: net2, type: direct, args: leaf2-11#net52 }
@@ -12984,7 +12984,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-11#net52 }
    - { name: net7, type: direct, args: leaf7-11#net52 }
  - name: spine12-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-12#net49 }
    - { name: net2, type: direct, args: leaf2-12#net49 }
@@ -12994,7 +12994,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-12#net49 }
    - { name: net7, type: direct, args: leaf7-12#net49 }
  - name: spine12-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-12#net50 }
    - { name: net2, type: direct, args: leaf2-12#net50 }
@@ -13004,7 +13004,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-12#net50 }
    - { name: net7, type: direct, args: leaf7-12#net50 }
  - name: spine12-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-12#net51 }
    - { name: net2, type: direct, args: leaf2-12#net51 }
@@ -13014,7 +13014,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-12#net51 }
    - { name: net7, type: direct, args: leaf7-12#net51 }
  - name: spine12-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-12#net52 }
    - { name: net2, type: direct, args: leaf2-12#net52 }
@@ -13024,7 +13024,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-12#net52 }
    - { name: net7, type: direct, args: leaf7-12#net52 }
  - name: spine13-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-13#net49 }
    - { name: net2, type: direct, args: leaf2-13#net49 }
@@ -13034,7 +13034,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-13#net49 }
    - { name: net7, type: direct, args: leaf7-13#net49 }
  - name: spine13-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-13#net50 }
    - { name: net2, type: direct, args: leaf2-13#net50 }
@@ -13044,7 +13044,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-13#net50 }
    - { name: net7, type: direct, args: leaf7-13#net50 }
  - name: spine13-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-13#net51 }
    - { name: net2, type: direct, args: leaf2-13#net51 }
@@ -13054,7 +13054,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-13#net51 }
    - { name: net7, type: direct, args: leaf7-13#net51 }
  - name: spine13-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-13#net52 }
    - { name: net2, type: direct, args: leaf2-13#net52 }
@@ -13064,7 +13064,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-13#net52 }
    - { name: net7, type: direct, args: leaf7-13#net52 }
  - name: spine14-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-14#net49 }
    - { name: net2, type: direct, args: leaf2-14#net49 }
@@ -13074,7 +13074,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-14#net49 }
    - { name: net7, type: direct, args: leaf7-14#net49 }
  - name: spine14-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-14#net50 }
    - { name: net2, type: direct, args: leaf2-14#net50 }
@@ -13084,7 +13084,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-14#net50 }
    - { name: net7, type: direct, args: leaf7-14#net50 }
  - name: spine14-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-14#net51 }
    - { name: net2, type: direct, args: leaf2-14#net51 }
@@ -13094,7 +13094,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-14#net51 }
    - { name: net7, type: direct, args: leaf7-14#net51 }
  - name: spine14-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-14#net52 }
    - { name: net2, type: direct, args: leaf2-14#net52 }
@@ -13104,7 +13104,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-14#net52 }
    - { name: net7, type: direct, args: leaf7-14#net52 }
  - name: spine15-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-15#net49 }
    - { name: net2, type: direct, args: leaf2-15#net49 }
@@ -13114,7 +13114,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-15#net49 }
    - { name: net7, type: direct, args: leaf7-15#net49 }
  - name: spine15-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-15#net50 }
    - { name: net2, type: direct, args: leaf2-15#net50 }
@@ -13124,7 +13124,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-15#net50 }
    - { name: net7, type: direct, args: leaf7-15#net50 }
  - name: spine15-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-15#net51 }
    - { name: net2, type: direct, args: leaf2-15#net51 }
@@ -13134,7 +13134,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-15#net51 }
    - { name: net7, type: direct, args: leaf7-15#net51 }
  - name: spine15-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-15#net52 }
    - { name: net2, type: direct, args: leaf2-15#net52 }
@@ -13144,7 +13144,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-15#net52 }
    - { name: net7, type: direct, args: leaf7-15#net52 }
  - name: spine16-1
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-16#net49 }
    - { name: net2, type: direct, args: leaf2-16#net49 }
@@ -13154,7 +13154,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-16#net49 }
    - { name: net7, type: direct, args: leaf7-16#net49 }
  - name: spine16-2
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-16#net50 }
    - { name: net2, type: direct, args: leaf2-16#net50 }
@@ -13164,7 +13164,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-16#net50 }
    - { name: net7, type: direct, args: leaf7-16#net50 }
  - name: spine16-3
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-16#net51 }
    - { name: net2, type: direct, args: leaf2-16#net51 }
@@ -13174,7 +13174,7 @@ nodes:
    - { name: net6, type: direct, args: leaf6-16#net51 }
    - { name: net7, type: direct, args: leaf7-16#net51 }
  - name: spine16-4
-   image: frr
+   image: slankdev/frr
    interfaces:
    - { name: net1, type: direct, args: leaf1-16#net52 }
    - { name: net2, type: direct, args: leaf2-16#net52 }
